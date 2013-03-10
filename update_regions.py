@@ -3,7 +3,7 @@
 import argparse
 import csv
 import json
-import os.path
+import os
 import sys
 import urllib2
 from xml.dom.minidom import getDOMImplementation
@@ -28,6 +28,13 @@ parser.add_argument('--output-dir',
 parser.add_argument('--output-formats',
                     default='json,xml',
                     help='The file types to write, separated by commas. Defaults to "json,xml".')
+parser.add_argument('--output-s3',
+                    metavar='S3_BUCKET',
+                    help='Outputs to S3. Requires --aws-access-key --aws-secret-key options, or the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY environment variables.')
+parser.add_argument('--aws-access-key',
+                    help='AWS Access key for publishing to S3.')
+parser.add_argument('--aws-secret-key',
+                    help='AWS Secret key for publishing to S3.')
 parser.add_argument('--pretty',
                     action='store_true',
                     default=False,
@@ -69,6 +76,9 @@ class BaseSerializer(object):
 
         bounds = bounds_str.split('|')
         return [_map_bound(b) for b in bounds]
+
+    def region_id(self, bundle, value):
+        bundle['id'] = int(value)
 
     def active(self, bundle, value):
         bundle['active'] = self._bool(value)
@@ -210,8 +220,9 @@ def serialize(regions, serializer):
         # Remove spaces
         return name.replace(' ', '')
 
-    def _to_bundle(region):
+    def _to_bundle(index, region):
         bundle = {}
+        serializer.region_id(bundle, index)
         for k, v in region.iteritems():
             key = _key(k)
             f = getattr(serializer, key, None)
@@ -223,24 +234,85 @@ def serialize(regions, serializer):
         bundle = serializer.alter_bundle(bundle)
         return bundle
 
-    list_bundle = [_to_bundle(region) for region in regions]
+    list_bundle = []
+    for i, region in enumerate(regions):
+        try:
+            list_bundle.append(_to_bundle(i, region))
+        except ValueError:
+            print >> sys.stderr, "*** ERROR: Invalid region specification: " + str(region)
+            raise
+
     list_bundle = serializer.alter_list_bundle(list_bundle)
     serialized = serializer.serialize(list_bundle)
     return serialized
 
 
+def output_stdout(_fmt, output, _opts):
+    print output
+
+
+def output_file(fmt, output, opts):
+    path = os.path.join(opts.output_dir, 'regions.' + fmt)
+    print 'Writing %s' % path
+    with open(path, 'w+') as f:
+        f.write(output)
+
+
+def output_s3(fmt, output, opts):
+    try:
+        from boto.s3.connection import S3Connection
+        from boto.s3.key import Key
+    except ImportError:
+        print >> sys.stderr, "Unable to publish to S3: Boto not installed."
+        return
+
+    # Verify the S3 configuration
+    bucket_name = opts.output_s3
+    access_key = opts.aws_access_key or os.environ.get('AWS_ACCESS_KEY_ID')
+    secret_key = opts.aws_secret_key or os.environ.get('AWS_SECRET_ACCESS_KEY')
+
+    if not access_key or not secret_key:
+        print >> sys.stderr, "We need an AWS access key and AWS secret key"
+        return
+
+    conn = S3Connection(access_key, secret_key)
+    bucket = conn.get_bucket(bucket_name)
+    k = Key(bucket)
+    k.key = 'api/where/regions.' + fmt
+
+    # Set a content type
+    content_types = {
+        'json': 'application/json',
+        'xml': 'text/xml'
+    }
+    if fmt in content_types:
+        k.set_metadata('Content-Type', content_types[fmt])
+
+    print 'Writing %s/%s' % (bucket_name, k.key)
+    k.set_contents_from_string(output)
+
+
 def main():
     class Options(object):
         pass
+
     opts = Options()
     parser.parse_args(namespace=opts)
+
+    # Maybe we should import print function from Python 3
+    if opts.output_dir == '-':
+        # Don't use stdout for log messages
+        def log(s):
+            pass
+    else:
+        def log(s):
+            print s
+
     if opts.input_file:
-        if opts.output_dir != '-':
-            print 'Reading %s' % opts.input_file
+        log('Reading %s' % opts.input_file)
         regions = get_csv_from_file(opts.input_file)
     else:
-        if opts.output_dir != '-':
-            print 'Reading %s' % opts.input_url
+        log('Reading %s' % opts.input_url)
         regions = get_csv_from_url(opts.input_url)
 
     serializer_opts = {
@@ -257,12 +329,11 @@ def main():
         if cls:
             output = serialize(regions, cls(**serializer_opts))
             if opts.output_dir == '-':
-                print output
+                output_stdout(fmt, output, opts)
+            elif opts.output_s3:
+                output_s3(fmt, output, opts)
             else:
-                path = os.path.join(opts.output_dir, 'regions.' + fmt)
-                print 'Writing %s' % path
-                with open(path, 'w+') as f:
-                    f.write(output)
+                output_file(fmt, output, opts)
 
         else:
             print >> sys.stderr, '*** ERROR: Unknown format: "%s"' % fmt

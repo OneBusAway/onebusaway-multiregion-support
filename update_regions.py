@@ -11,24 +11,24 @@ from xml.dom.minidom import getDOMImplementation
 
 DESCRIPTION = """Generate and update OneBusAway regions list.
 
-This script will translate the spreadsheet that specifies the 
+This script will translate the spreadsheet that specifies the
 OneBusAway regions into JSON and XML files that can be served by
 the regions server. It provides options to store the output
 files locally, or in an AWS S3 bucket.
 """
 parser = argparse.ArgumentParser(description=DESCRIPTION)
-parser.add_argument('--input-url', 
+parser.add_argument('--input-url',
                     default="https://docs.google.com/spreadsheet/ccc?key=0AsoU647elPShdHlYc0RJbkEtZnVvTW11WE5NbHNiMXc&pli=1&gid=0&output=csv",
                     help='The source URL to process as input.')
-parser.add_argument('--input-file', 
+parser.add_argument('--input-file',
                     help='The local CSV file to process as input.')
-parser.add_argument('--output-dir', 
+parser.add_argument('--output-dir',
                     default='.',
                     help="The directory to write the output files. Defaults to the current directory. You can use '-' for stdout.")
-parser.add_argument('--output-formats', 
+parser.add_argument('--output-formats',
                     default='json,xml',
                     help='The file types to write, separated by commas. Defaults to "json,xml".')
-parser.add_argument('--pretty', 
+parser.add_argument('--pretty',
                     action='store_true',
                     default=False,
                     help='Make the output files pretty and readable with indentation.')
@@ -45,7 +45,7 @@ def get_csv_from_file(path):
 
 def get_csv_from_url(url):
     "Returns a list of regions from the specified spreadsheet URL."
-    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(), 
+    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(),
                                   urllib2.HTTPRedirectHandler())
     urllib2.install_opener(opener)
     response = urllib2.urlopen(url)
@@ -75,7 +75,7 @@ class BaseSerializer(object):
 
     def bounds(self, bundle, value):
         bundle['bounds'] = self._bounds(value)
-        
+
     def supportsSiriRealtimeApis(self, bundle, value):
         bundle['supportsSiriRealtimeApis'] = self._bool(value)
 
@@ -101,7 +101,7 @@ class JSONSerializer(BaseSerializer):
         else:
             raise ValueError("Invalid value for active")
 
-    # The base URLs want to be serialized as null in JSON, 
+    # The base URLs want to be serialized as null in JSON,
     # not the empty string.
 
     def obaBaseUrl(self, bundle, value):
@@ -109,7 +109,7 @@ class JSONSerializer(BaseSerializer):
 
     def siriBaseUrl(self, bundle, value):
         bundle['siriBaseUrl'] = value or None
-        
+
     def alter_list_bundle(self, list_bundle):
         return {
             'version': 2,
@@ -154,7 +154,7 @@ class XMLSerializer(BaseSerializer):
                 child = self._node(key, value)
                 elem.appendChild(child)
             l.appendChild(elem)
-            
+
         bundle['bounds'] = l
 
     def alter_bundle(self, bundle):
@@ -181,7 +181,7 @@ class XMLSerializer(BaseSerializer):
         l = self.doc.createElement('list')
         for elem in list_bundle:
             l.appendChild(elem)
-    
+
         data.appendChild(l)
         top.appendChild(data)
         return list_bundle
@@ -270,4 +270,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

@@ -74,6 +74,9 @@ class BaseSerializer(object):
                 'lonSpan': float(lonSpan)
             }
 
+        if not bounds_str:
+            return []
+
         bounds = bounds_str.split('|')
         return [_map_bound(b) for b in bounds]
 
@@ -278,7 +281,7 @@ def output_s3(fmt, output, opts):
     conn = S3Connection(access_key, secret_key)
     bucket = conn.get_bucket(bucket_name)
     k = Key(bucket)
-    k.key = 'api/where/regions.' + fmt
+    k.key = 'regions.' + fmt
 
     # Set a content type
     content_types = {

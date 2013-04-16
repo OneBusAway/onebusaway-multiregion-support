@@ -3,9 +3,9 @@
 This includes some files to support the multi-region support to allow OneBusAway clients 
 to access servers across multiple regions within the same app.
 
-The proposal for this is located here:
+Multi-Region documentation for the OneBusAway project is here:
 
-https://docs.google.com/document/d/1hYvqUWRAYk5WLM00ZquC7hKbffvrDSOJ8LpHtz5i9Xk
+https://github.com/OneBusAway/onebusaway/wiki/Multi-Region
 
 ## OneBusAway Project
 

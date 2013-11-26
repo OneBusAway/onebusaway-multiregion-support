@@ -114,6 +114,9 @@ class BaseSerializer(object):
     def supportsObaRealtimeApis(self, bundle, value):
         bundle['supportsObaRealtimeApis'] = self._bool(value)
 
+    def experimental(self, bundle, value):
+        bundle['experimental'] = self._bool(value)
+	
     def alter_bundle(self, bundle):
         return bundle
 

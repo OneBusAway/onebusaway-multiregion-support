@@ -141,6 +141,9 @@ class JSONSerializer(BaseSerializer):
 
     def siriBaseUrl(self, bundle, value):
         bundle['siriBaseUrl'] = value or None
+	
+    def stopInfoUrl(self, bundle, value):
+        bundle['stopInfoUrl'] = value or None
 
     def alter_list_bundle(self, list_bundle):
         return {

@@ -145,9 +145,9 @@ class JSONSerializer(BaseSerializer):
     def stopInfoUrl(self, bundle, value):
         bundle['stopInfoUrl'] = value or None
 
-    def alter_list_bundle(self, list_bundle):
+    def alter_list_bundle(self, list_bundle, version):
         return {
-            'version': 2,
+            'version': version,
             'code': 200,
             'text': 'OK',
             'data': {'list': list_bundle}
@@ -205,9 +205,9 @@ class XMLSerializer(BaseSerializer):
 
         return elem
 
-    def alter_list_bundle(self, list_bundle):
+    def alter_list_bundle(self, list_bundle, version):
         top = self.doc.documentElement
-        top.appendChild(self._node('version', 2))
+        top.appendChild(self._node('version', version))
         top.appendChild(self._node('code', 200))
         top.appendChild(self._node('text', 'OK'))
 
@@ -228,7 +228,7 @@ class XMLSerializer(BaseSerializer):
             return self.doc.toxml()
 
 
-def serialize(regions, serializer):
+def serialize(regions, serializer, version):
     """
     This does the following:
     1. Map each spreadsheet name into a suitable python function.
@@ -262,12 +262,19 @@ def serialize(regions, serializer):
     list_bundle = []
     for i, region in enumerate(regions):
         try:
-            list_bundle.append(_to_bundle(i, region))
+            # For v2, don't include experimental servers
+            if version == 2:			
+                if region["Experimental?"] == 'TRUE':
+                    print "Skipping %s as experimental for v2" % (region["Region_Name"])
+                else:
+                    list_bundle.append(_to_bundle(i, region))
+            else:
+                 list_bundle.append(_to_bundle(i, region))
         except ValueError:
             print >> sys.stderr, "*** ERROR: Invalid region specification: " + str(region)
             raise
 
-    list_bundle = serializer.alter_list_bundle(list_bundle)
+    list_bundle = serializer.alter_list_bundle(list_bundle, version)
     serialized = serializer.serialize(list_bundle)
     return serialized
 
@@ -276,14 +283,18 @@ def output_stdout(_fmt, output, _opts):
     print output
 
 
-def output_file(fmt, output, opts):
-    path = os.path.join(opts.output_dir, 'regions.' + fmt)
+def output_file(fmt, output, opts, version):
+    if version == 2:
+        file_name = 'regions.'
+    else:
+        file_name = 'regions-v' + str(version) + '.'
+    path = os.path.join(opts.output_dir, file_name + fmt)
     print 'Writing %s' % path
     with open(path, 'w+') as f:
         f.write(output)
 
 
-def output_s3(fmt, output, opts):
+def output_s3(fmt, output, opts, version):
     try:
         from boto.s3.connection import S3Connection
         from boto.s3.key import Key
@@ -303,7 +314,12 @@ def output_s3(fmt, output, opts):
     conn = S3Connection(access_key, secret_key)
     bucket = conn.get_bucket(bucket_name)
     k = Key(bucket)
-    k.key = 'regions.' + fmt
+    if version == 2:
+        file_name = 'regions.'
+    else:
+		file_name = 'regions-v' + version + '.'
+		
+    k.key = file_name + fmt
 
     # Set a content type
     content_types = {
@@ -352,13 +368,25 @@ def main():
     for fmt in opts.output_formats.split(','):
         cls = serializers.get(fmt)
         if cls:
-            output = serialize(regions, cls(**serializer_opts))
+            # Write v2 (initial) version of API first, without experimental regions
+            version = 2
+            output = serialize(regions, cls(**serializer_opts), version)
             if opts.output_dir == '-':
                 output_stdout(fmt, output, opts)
             elif opts.output_s3:
-                output_s3(fmt, output, opts)
+                output_s3(fmt, output, opts, version)
             else:
-                output_file(fmt, output, opts)
+                output_file(fmt, output, opts, version)
+            			
+            # Write v3 version of API next (includes experimental regions)
+            version = 3
+            output = serialize(regions, cls(**serializer_opts), version)
+            if opts.output_dir == '-':
+                output_stdout(fmt, output, opts)
+            elif opts.output_s3:
+                output_s3(fmt, output, opts, version)
+            else:
+                output_file(fmt, output, opts, version)
 
         else:
             print >> sys.stderr, '*** ERROR: Unknown format: "%s"' % fmt

@@ -196,7 +196,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "obaVersionInfo": "1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|70fe470458e6b54078e567e0f008a161938a7468", 
+        "obaVersionInfo": "", 
         "supportsSiriRealtimeApis": false, 
         "language": "en_US", 
         "twitterUrl": "", 
@@ -274,6 +274,37 @@
         "id": 6, 
         "experimental": true, 
         "regionName": "Bear Transit (beta)"
+      }, 
+      {
+        "siriBaseUrl": null, 
+        "obaVersionInfo": "", 
+        "supportsSiriRealtimeApis": false, 
+        "language": "en_US", 
+        "twitterUrl": "", 
+        "supportsObaRealtimeApis": true, 
+        "bounds": [
+          {
+            "lat": 42.367244, 
+            "latSpan": 0.014910000000000423, 
+            "lon": -71.023894, 
+            "lonSpan": 0.011874000000005935
+          }, 
+          {
+            "lat": 42.1893185, 
+            "latSpan": 1.2170369999999977, 
+            "lon": -71.210252, 
+            "lonSpan": 1.1692720000000065
+          }
+        ], 
+        "supportsObaDiscoveryApis": true, 
+        "contactEmail": "sbrown@camsys.com", 
+        "stopInfoUrl": null, 
+        "active": true, 
+        "facebookUrl": "", 
+        "obaBaseUrl": "http://developer.onebusaway.org/mbta-api/", 
+        "id": 7, 
+        "experimental": true, 
+        "regionName": "Boston (beta)"
       }
     ]
   }

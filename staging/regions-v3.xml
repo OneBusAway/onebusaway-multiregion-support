@@ -197,7 +197,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <obaVersionInfo>1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|70fe470458e6b54078e567e0f008a161938a7468</obaVersionInfo>
+        <obaVersionInfo></obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <language>en_US</language>
         <twitterUrl></twitterUrl>
@@ -275,6 +275,37 @@
         <id>6</id>
         <experimental>true</experimental>
         <regionName>Bear Transit (beta)</regionName>
+      </region>
+      <region>
+        <siriBaseUrl></siriBaseUrl>
+        <obaVersionInfo></obaVersionInfo>
+        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <language>en_US</language>
+        <twitterUrl></twitterUrl>
+        <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
+        <bounds>
+          <bound>
+            <lat>42.367244</lat>
+            <latSpan>0.01491</latSpan>
+            <lon>-71.023894</lon>
+            <lonSpan>0.011874</lonSpan>
+          </bound>
+          <bound>
+            <lat>42.1893185</lat>
+            <latSpan>1.217037</latSpan>
+            <lon>-71.210252</lon>
+            <lonSpan>1.169272</lonSpan>
+          </bound>
+        </bounds>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <contactEmail>sbrown@camsys.com</contactEmail>
+        <stopInfoUrl></stopInfoUrl>
+        <active>true</active>
+        <facebookUrl></facebookUrl>
+        <obaBaseUrl>http://developer.onebusaway.org/mbta-api/</obaBaseUrl>
+        <id>7</id>
+        <experimental>true</experimental>
+        <regionName>Boston (beta)</regionName>
       </region>
     </list>
   </data>

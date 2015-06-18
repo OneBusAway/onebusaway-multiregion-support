@@ -7,7 +7,7 @@
       {
         "siriBaseUrl": null, 
         "obaVersionInfo": "1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9", 
-        "supportsSiriRealtimeApis": false, 
+        "supportsSiriRealtimeApis": true, 
         "language": "en_US", 
         "twitterUrl": "http://mobile.twitter.com/OBA_tampa", 
         "supportsObaRealtimeApis": true, 

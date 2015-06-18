@@ -8,7 +8,7 @@
       <region>
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo>1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9</obaVersionInfo>
-        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <language>en_US</language>
         <twitterUrl>http://mobile.twitter.com/OBA_tampa</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>

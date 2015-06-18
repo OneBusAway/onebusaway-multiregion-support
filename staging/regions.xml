@@ -136,7 +136,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <obaVersionInfo>1.1.8-SNAPSHOT|1|1|8|SNAPSHOT|877d870ac5c5f64607113d08d6d362925839719e</obaVersionInfo>
+        <obaVersionInfo>1.1.14-SNAPSHOT|1|1|14|SNAPSHOT|440e5cb692a1ed195de7f0686d69f5ceecbe9a41</obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <language>en_US</language>
         <twitterUrl>http://mobile.twitter.com/OBA_atlanta</twitterUrl>
@@ -190,7 +190,7 @@
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/pages/ObaAtlanta/136662306506627</facebookUrl>
-        <obaBaseUrl>http://onebusaway.gatech.edu/api/</obaBaseUrl>
+        <obaBaseUrl>http://atlanta.onebusaway.org/api/</obaBaseUrl>
         <id>3</id>
         <experimental>false</experimental>
         <regionName>Atlanta</regionName>

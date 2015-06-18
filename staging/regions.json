@@ -135,7 +135,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "obaVersionInfo": "1.1.8-SNAPSHOT|1|1|8|SNAPSHOT|877d870ac5c5f64607113d08d6d362925839719e", 
+        "obaVersionInfo": "1.1.14-SNAPSHOT|1|1|14|SNAPSHOT|440e5cb692a1ed195de7f0686d69f5ceecbe9a41", 
         "supportsSiriRealtimeApis": false, 
         "language": "en_US", 
         "twitterUrl": "http://mobile.twitter.com/OBA_atlanta", 
@@ -189,7 +189,7 @@
         "stopInfoUrl": null, 
         "active": true, 
         "facebookUrl": "https://www.facebook.com/pages/ObaAtlanta/136662306506627", 
-        "obaBaseUrl": "http://onebusaway.gatech.edu/api/", 
+        "obaBaseUrl": "http://atlanta.onebusaway.org/api/", 
         "id": 3, 
         "experimental": false, 
         "regionName": "Atlanta"

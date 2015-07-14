@@ -332,6 +332,31 @@
         <experimental>true</experimental>
         <regionName>Lappeenranta (beta)</regionName>
       </region>
+      <region>
+        <siriBaseUrl></siriBaseUrl>
+        <obaVersionInfo></obaVersionInfo>
+        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <language>en_US</language>
+        <twitterUrl></twitterUrl>
+        <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
+        <bounds>
+          <bound>
+            <lat>42.309802394</lat>
+            <latSpan>0.267975211908</latSpan>
+            <lon>-122.8202635</lon>
+            <lonSpan>0.297453</lonSpan>
+          </bound>
+        </bounds>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <contactEmail>aaron@trilliumtransit.com</contactEmail>
+        <stopInfoUrl></stopInfoUrl>
+        <active>true</active>
+        <facebookUrl></facebookUrl>
+        <obaBaseUrl>http://oba.rvtd.org:8080/onebusaway-api-webapp/</obaBaseUrl>
+        <id>9</id>
+        <experimental>true</experimental>
+        <regionName>Rogue Valley, Oregon (beta)</regionName>
+      </region>
     </list>
   </data>
 </response>

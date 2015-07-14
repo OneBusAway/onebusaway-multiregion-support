@@ -330,6 +330,31 @@
         "id": 8, 
         "experimental": true, 
         "regionName": "Lappeenranta (beta)"
+      }, 
+      {
+        "siriBaseUrl": null, 
+        "obaVersionInfo": "", 
+        "supportsSiriRealtimeApis": false, 
+        "language": "en_US", 
+        "twitterUrl": "", 
+        "supportsObaRealtimeApis": true, 
+        "bounds": [
+          {
+            "lat": 42.309802394046, 
+            "latSpan": 0.2679752119080021, 
+            "lon": -122.82026350000001, 
+            "lonSpan": 0.2974530000000044
+          }
+        ], 
+        "supportsObaDiscoveryApis": true, 
+        "contactEmail": "aaron@trilliumtransit.com", 
+        "stopInfoUrl": null, 
+        "active": true, 
+        "facebookUrl": "", 
+        "obaBaseUrl": "http://oba.rvtd.org:8080/onebusaway-api-webapp/", 
+        "id": 9, 
+        "experimental": true, 
+        "regionName": "Rogue Valley, Oregon (beta)"
       }
     ]
   }

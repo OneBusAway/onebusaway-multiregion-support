@@ -353,8 +353,8 @@
         "facebookUrl": "", 
         "obaBaseUrl": "http://oba.rvtd.org:8080/onebusaway-api-webapp/", 
         "id": 9, 
-        "experimental": true, 
-        "regionName": "Rogue Valley, Oregon (beta)"
+        "experimental": false, 
+        "regionName": "Rogue Valley, Oregon"
       }
     ]
   }

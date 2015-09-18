@@ -354,8 +354,8 @@
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://oba.rvtd.org:8080/onebusaway-api-webapp/</obaBaseUrl>
         <id>9</id>
-        <experimental>true</experimental>
-        <regionName>Rogue Valley, Oregon (beta)</regionName>
+        <experimental>false</experimental>
+        <regionName>Rogue Valley, Oregon</regionName>
       </region>
     </list>
   </data>

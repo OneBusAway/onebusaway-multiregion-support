@@ -77,6 +77,9 @@ def get_csv_from_url(url):
 
 
 class BaseSerializer(object):
+    _open311BaseUrls = ''
+    _open311JurisdictionIds = ''
+
     def __init__(self, **kwargs):
         self.pretty = kwargs.get('pretty')
 
@@ -96,6 +99,25 @@ class BaseSerializer(object):
         bounds = bounds_str.split('|')
         return [_map_bound(b) for b in bounds]
 
+    def _open311ApiKeys(self, apikeys_str):
+        def _map_api_keys(apiKey, endpoint, jurisdiction):
+            return {
+                'juridisctionId': jurisdiction or None,
+                'apiKey': apiKey,
+                'baseUrl': endpoint
+            }
+
+        if not apikeys_str:
+            return []
+        endpoints = self._open311BaseUrls.split('|') 
+        apikeys = apikeys_str.split('|')
+
+        if not self._open311JurisdictionIds:
+        	return [_map_api_keys(a, e, None) for (a,e) in zip(apikeys, endpoints)]
+        else:
+            jurisdictionIds = self._open311JurisdictionIds.split('|')
+            return [_map_api_keys(a, e, j) for (a,e,j) in zip(apikeys, endpoints, jurisdictionIds)]
+
     def region_id(self, bundle, value):
         bundle['id'] = int(value)
 
@@ -104,6 +126,15 @@ class BaseSerializer(object):
 
     def bounds(self, bundle, value):
         bundle['bounds'] = self._bounds(value)
+
+    def open311BaseUrls(self, bundle, value):
+        self._open311BaseUrls = value
+
+    def open311JurisdictionId(self, bundle, value):
+        self._open311JurisdictionIds =value
+
+    def open311ApiKeys(self, bundle, value):
+        bundle['open311Servers'] = self._open311ApiKeys(value)
 
     def supportsSiriRealtimeApis(self, bundle, value):
         bundle['supportsSiriRealtimeApis'] = self._bool(value)
@@ -192,12 +223,30 @@ class XMLSerializer(BaseSerializer):
 
         bundle['bounds'] = l
 
+    def open311ApiKeys(self, bundle, value):
+        open311ApiKeys = self._open311ApiKeys(value)
+        # We need to convert this to a element here
+        l = self.doc.createElement('open311Servers')
+
+        for o in open311ApiKeys:
+            elem = self.doc.createElement('open311Server')
+            for key, value in o.iteritems():
+            	if not value:
+            		value = ''
+
+            	child = self._node(key, value)
+            	elem.appendChild(child)
+            	
+            l.appendChild(elem)
+
+        bundle['open311ApiKeys'] = l
+
     def alter_bundle(self, bundle):
         # Each item in the bundle should be converted to a text
         # node, if it isn't already a node (which it would be for bounds)
         elem = self.doc.createElement('region')
         for key, value in bundle.iteritems():
-            if key == 'bounds':
+            if key == 'bounds' or key == 'open311ApiKeys':
                 elem.appendChild(value)
             else:
                 child = self._node(key, value)

@@ -23,6 +23,18 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>onebusaway@gohart.org</contactEmail>
         <stopInfoUrl></stopInfoUrl>
+        <open311Servers>
+          <open311Server>
+            <juridisctionId></juridisctionId>
+            <apiKey>937033cad3054ec58a1a8156dcdd6ad8a416af2f</apiKey>
+            <baseUrl>http://test.seeclickfix.com/open311/v2/</baseUrl>
+          </open311Server>
+          <open311Server>
+            <juridisctionId></juridisctionId>
+            <apiKey>937033cad3054ec58a1a8156dcdd6ad8a416af2f</apiKey>
+            <baseUrl>http://www.publicstuff.com/api/open311/</baseUrl>
+          </open311Server>
+        </open311Servers>
         <active>true</active>
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://api.tampa.onebusaway.org/api/</obaBaseUrl>
@@ -96,6 +108,7 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
         <stopInfoUrl>http://stopinfo.pugetsound.onebusaway.org</stopInfoUrl>
+        <open311Servers/>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/pages/OneBusAway/216091804930</facebookUrl>
         <obaBaseUrl>http://api.pugetsound.onebusaway.org/</obaBaseUrl>
@@ -127,6 +140,7 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>MTABusTime@mtahq.org</contactEmail>
         <stopInfoUrl></stopInfoUrl>
+        <open311Servers/>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/pages/MTA-New-York-City-Transit/232635164606</facebookUrl>
         <obaBaseUrl>http://bustime.mta.info/</obaBaseUrl>
@@ -188,6 +202,7 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>onebusaway@ce.gatech.edu</contactEmail>
         <stopInfoUrl></stopInfoUrl>
+        <open311Servers/>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/pages/ObaAtlanta/136662306506627</facebookUrl>
         <obaBaseUrl>http://atlanta.onebusaway.org/api/</obaBaseUrl>
@@ -213,6 +228,7 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>transitinfo@york.ca</contactEmail>
         <stopInfoUrl></stopInfoUrl>
+        <open311Servers/>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/198178906967045</facebookUrl>
         <obaBaseUrl>http://oba.yrt.ca/</obaBaseUrl>
@@ -238,6 +254,7 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>info@rvtd.org</contactEmail>
         <stopInfoUrl></stopInfoUrl>
+        <open311Servers/>
         <active>true</active>
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://oba.rvtd.org:8080/onebusaway-api-webapp/</obaBaseUrl>

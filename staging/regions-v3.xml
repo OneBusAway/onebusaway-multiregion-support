@@ -380,7 +380,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <obaVersionInfo>1.1.12-SNAPSHOT|1|1|12|SNAPSHOT</obaVersionInfo>
+        <obaVersionInfo>1.1.12-SNAPSHOT|1|1|12|SNAPSHOT|</obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <language>en_US</language>
         <twitterUrl></twitterUrl>

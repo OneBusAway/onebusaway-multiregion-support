@@ -379,7 +379,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "obaVersionInfo": "1.1.12-SNAPSHOT|1|1|12|SNAPSHOT", 
+        "obaVersionInfo": "1.1.12-SNAPSHOT|1|1|12|SNAPSHOT|", 
         "supportsSiriRealtimeApis": false, 
         "supportsObaDiscoveryApis": true, 
         "language": "en_US", 

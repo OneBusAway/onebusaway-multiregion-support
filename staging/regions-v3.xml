@@ -6,7 +6,7 @@
   <data>
     <list>
       <region>
-        <siriBaseUrl></siriBaseUrl>
+        <siriBaseUrl>http://tampa.onebusaway.org/siri/</siriBaseUrl>
         <obaVersionInfo>1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9</obaVersionInfo>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <language>en_US</language>
@@ -377,6 +377,32 @@
         <id>9</id>
         <experimental>false</experimental>
         <regionName>Rogue Valley, Oregon</regionName>
+      </region>
+      <region>
+        <siriBaseUrl></siriBaseUrl>
+        <obaVersionInfo>1.1.12-SNAPSHOT|1|1|12|SNAPSHOT</obaVersionInfo>
+        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <language>en_US</language>
+        <twitterUrl></twitterUrl>
+        <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
+        <bounds>
+          <bound>
+            <lat>37.9337345</lat>
+            <latSpan>0.398403</latSpan>
+            <lon>-121.3456095</lon>
+            <lonSpan>0.422097</lonSpan>
+          </bound>
+        </bounds>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <contactEmail>jespejo@sanjoaquinrtd.com</contactEmail>
+        <stopInfoUrl></stopInfoUrl>
+        <open311Servers/>
+        <active>true</active>
+        <facebookUrl></facebookUrl>
+        <obaBaseUrl>http://www.obartd.com/onebusaway-api-webapp/</obaBaseUrl>
+        <id>10</id>
+        <experimental>true</experimental>
+        <regionName>San Joaquin RTD (beta)</regionName>
       </region>
     </list>
   </data>

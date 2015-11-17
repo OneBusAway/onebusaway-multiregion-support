@@ -6,7 +6,7 @@
   <data>
     <list>
       <region>
-        <siriBaseUrl></siriBaseUrl>
+        <siriBaseUrl>http://tampa.onebusaway.org/siri/</siriBaseUrl>
         <obaVersionInfo>1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9</obaVersionInfo>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <language>en_US</language>

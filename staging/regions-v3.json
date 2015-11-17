@@ -5,7 +5,7 @@
   "data": {
     "list": [
       {
-        "siriBaseUrl": null, 
+        "siriBaseUrl": "http://tampa.onebusaway.org/siri/", 
         "obaVersionInfo": "1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9", 
         "supportsSiriRealtimeApis": true, 
         "supportsObaDiscoveryApis": true, 
@@ -376,6 +376,32 @@
         "id": 9, 
         "experimental": false, 
         "regionName": "Rogue Valley, Oregon"
+      }, 
+      {
+        "siriBaseUrl": null, 
+        "obaVersionInfo": "1.1.12-SNAPSHOT|1|1|12|SNAPSHOT", 
+        "supportsSiriRealtimeApis": false, 
+        "supportsObaDiscoveryApis": true, 
+        "language": "en_US", 
+        "twitterUrl": "", 
+        "supportsObaRealtimeApis": true, 
+        "bounds": [
+          {
+            "lat": 37.9337345, 
+            "latSpan": 0.39840300000000184, 
+            "lon": -121.3456095, 
+            "lonSpan": 0.4220969999999937
+          }
+        ], 
+        "open311Servers": [], 
+        "contactEmail": "jespejo@sanjoaquinrtd.com", 
+        "stopInfoUrl": null, 
+        "active": true, 
+        "facebookUrl": "", 
+        "obaBaseUrl": "http://www.obartd.com/onebusaway-api-webapp/", 
+        "id": 10, 
+        "experimental": true, 
+        "regionName": "San Joaquin RTD (beta)"
       }
     ]
   }

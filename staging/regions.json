@@ -5,7 +5,7 @@
   "data": {
     "list": [
       {
-        "siriBaseUrl": null, 
+        "siriBaseUrl": "http://tampa.onebusaway.org/siri/", 
         "obaVersionInfo": "1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9", 
         "supportsSiriRealtimeApis": true, 
         "supportsObaDiscoveryApis": true, 

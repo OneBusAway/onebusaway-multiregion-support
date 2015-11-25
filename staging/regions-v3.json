@@ -402,6 +402,32 @@
         "id": 10, 
         "experimental": true, 
         "regionName": "San Joaquin RTD (beta)"
+      }, 
+      {
+        "siriBaseUrl": null, 
+        "obaVersionInfo": "1.1.14|1|1|14|73aea0d ", 
+        "supportsSiriRealtimeApis": false, 
+        "supportsObaDiscoveryApis": true, 
+        "language": "en_US", 
+        "twitterUrl": "", 
+        "supportsObaRealtimeApis": true, 
+        "bounds": [
+          {
+            "lat": 32.9002948657295, 
+            "latSpan": 0.7131838699909991, 
+            "lon": -116.73142875280399, 
+            "lonSpan": 1.093941754416008
+          }
+        ], 
+        "open311Servers": [], 
+        "contactEmail": "helpdesk@sdmts.com", 
+        "stopInfoUrl": null, 
+        "active": true, 
+        "facebookUrl": "", 
+        "obaBaseUrl": "http://realtime.sdmts.com/api/", 
+        "id": 11, 
+        "experimental": true, 
+        "regionName": "San Diego MTS (beta)"
       }
     ]
   }

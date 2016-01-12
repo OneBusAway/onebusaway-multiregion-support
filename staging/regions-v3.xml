@@ -107,7 +107,7 @@
         </bounds>
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
-        <stopInfoUrl>http://stopinfo.pugetsound.onebusaway.org</stopInfoUrl>
+        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/pages/OneBusAway/216091804930</facebookUrl>

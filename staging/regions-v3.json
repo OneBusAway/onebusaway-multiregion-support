@@ -107,7 +107,7 @@
         ], 
         "open311Servers": [], 
         "contactEmail": "onebusaway@soundtransit.org", 
-        "stopInfoUrl": null, 
+        "stopInfoUrl": "http://stopinfo.pugetsound.onebusaway.org", 
         "active": true, 
         "facebookUrl": "https://www.facebook.com/pages/OneBusAway/216091804930", 
         "obaBaseUrl": "http://api.pugetsound.onebusaway.org/", 

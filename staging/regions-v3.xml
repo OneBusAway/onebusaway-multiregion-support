@@ -427,8 +427,8 @@
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://realtime.sdmts.com/api/</obaBaseUrl>
         <id>11</id>
-        <experimental>true</experimental>
-        <regionName>San Diego MTS (beta)</regionName>
+        <experimental>false</experimental>
+        <regionName>San Diego MTS</regionName>
       </region>
     </list>
   </data>

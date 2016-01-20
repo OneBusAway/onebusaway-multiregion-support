@@ -426,8 +426,8 @@
         "facebookUrl": "", 
         "obaBaseUrl": "http://realtime.sdmts.com/api/", 
         "id": 11, 
-        "experimental": true, 
-        "regionName": "San Diego MTS (beta)"
+        "experimental": false, 
+        "regionName": "San Diego MTS"
       }
     ]
   }

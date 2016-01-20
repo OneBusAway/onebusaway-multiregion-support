@@ -262,6 +262,32 @@
         <experimental>false</experimental>
         <regionName>Rogue Valley, Oregon</regionName>
       </region>
+      <region>
+        <siriBaseUrl></siriBaseUrl>
+        <obaVersionInfo>1.1.14|1|1|14|73aea0d </obaVersionInfo>
+        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <language>en_US</language>
+        <twitterUrl></twitterUrl>
+        <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
+        <bounds>
+          <bound>
+            <lat>32.9002948657</lat>
+            <latSpan>0.713183869991</latSpan>
+            <lon>-116.731428753</lon>
+            <lonSpan>1.09394175442</lonSpan>
+          </bound>
+        </bounds>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <contactEmail>helpdesk@sdmts.com</contactEmail>
+        <stopInfoUrl></stopInfoUrl>
+        <open311Servers/>
+        <active>true</active>
+        <facebookUrl></facebookUrl>
+        <obaBaseUrl>http://realtime.sdmts.com/api/</obaBaseUrl>
+        <id>11</id>
+        <experimental>false</experimental>
+        <regionName>San Diego MTS</regionName>
+      </region>
     </list>
   </data>
 </response>

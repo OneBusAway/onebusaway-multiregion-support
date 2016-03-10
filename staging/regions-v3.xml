@@ -213,34 +213,28 @@
       <region>
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo></obaVersionInfo>
-        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <language>en_US</language>
-        <twitterUrl></twitterUrl>
+        <twitterUrl>https://mobile.twitter.com/Metrobusinfo</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <bounds>
           <bound>
-            <lat>38.8950905</lat>
+            <lat>38.8950925</lat>
             <latSpan>0.592797</latSpan>
-            <lon>-77.059198</lon>
-            <lonSpan>0.780518</lonSpan>
-          </bound>
-          <bound>
-            <lat>38.8941925</lat>
-            <latSpan>0.068833</latSpan>
-            <lon>-77.0180425</lon>
-            <lonSpan>0.106837</lonSpan>
+            <lon>-77.059196</lon>
+            <lonSpan>0.78052</lonSpan>
           </bound>
         </bounds>
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
-        <contactEmail>kurt@kurtraschke.com</contactEmail>
+        <contactEmail>feedback@wmata.com</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
         <facebookUrl></facebookUrl>
-        <obaBaseUrl>http://developer.onebusaway.org/wmata-api/</obaBaseUrl>
+        <obaBaseUrl>http://buseta.wmata.com/onebusaway-api-webapp/</obaBaseUrl>
         <id>4</id>
-        <experimental>true</experimental>
-        <regionName>Washington, D.C. (beta)</regionName>
+        <experimental>false</experimental>
+        <regionName>Washington, D.C.</regionName>
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>

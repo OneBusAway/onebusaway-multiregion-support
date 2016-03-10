@@ -211,6 +211,32 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "obaVersionInfo": "", 
+        "supportsSiriRealtimeApis": true, 
+        "supportsObaDiscoveryApis": true, 
+        "language": "en_US", 
+        "twitterUrl": "https://mobile.twitter.com/Metrobusinfo", 
+        "supportsObaRealtimeApis": true, 
+        "bounds": [
+          {
+            "lat": 38.895092500000004, 
+            "latSpan": 0.5927969999999974, 
+            "lon": -77.059196, 
+            "lonSpan": 0.7805199999999957
+          }
+        ], 
+        "open311Servers": [], 
+        "contactEmail": "feedback@wmata.com", 
+        "stopInfoUrl": null, 
+        "active": true, 
+        "facebookUrl": "", 
+        "obaBaseUrl": "http://buseta.wmata.com/onebusaway-api-webapp/", 
+        "id": 4, 
+        "experimental": false, 
+        "regionName": "Washington, D.C."
+      }, 
+      {
+        "siriBaseUrl": null, 
         "obaVersionInfo": "1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52", 
         "supportsSiriRealtimeApis": false, 
         "supportsObaDiscoveryApis": true, 

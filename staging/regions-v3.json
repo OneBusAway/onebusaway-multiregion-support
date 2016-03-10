@@ -212,34 +212,28 @@
       {
         "siriBaseUrl": null, 
         "obaVersionInfo": "", 
-        "supportsSiriRealtimeApis": false, 
+        "supportsSiriRealtimeApis": true, 
         "supportsObaDiscoveryApis": true, 
         "language": "en_US", 
-        "twitterUrl": "", 
+        "twitterUrl": "https://mobile.twitter.com/Metrobusinfo", 
         "supportsObaRealtimeApis": true, 
         "bounds": [
           {
-            "lat": 38.895090499999995, 
+            "lat": 38.895092500000004, 
             "latSpan": 0.5927969999999974, 
-            "lon": -77.059198, 
-            "lonSpan": 0.7805180000000007
-          }, 
-          {
-            "lat": 38.8941925, 
-            "latSpan": 0.06883300000000503, 
-            "lon": -77.0180425, 
-            "lonSpan": 0.10683699999999874
+            "lon": -77.059196, 
+            "lonSpan": 0.7805199999999957
           }
         ], 
         "open311Servers": [], 
-        "contactEmail": "kurt@kurtraschke.com", 
+        "contactEmail": "feedback@wmata.com", 
         "stopInfoUrl": null, 
         "active": true, 
         "facebookUrl": "", 
-        "obaBaseUrl": "http://developer.onebusaway.org/wmata-api/", 
+        "obaBaseUrl": "http://buseta.wmata.com/onebusaway-api-webapp/", 
         "id": 4, 
-        "experimental": true, 
-        "regionName": "Washington, D.C. (beta)"
+        "experimental": false, 
+        "regionName": "Washington, D.C."
       }, 
       {
         "siriBaseUrl": null, 

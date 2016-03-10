@@ -211,7 +211,7 @@
         <regionName>Atlanta</regionName>
       </region>
       <region>
-        <siriBaseUrl></siriBaseUrl>
+        <siriBaseUrl>http://buseta.wmata.com/siri/</siriBaseUrl>
         <obaVersionInfo></obaVersionInfo>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <language>en_US</language>

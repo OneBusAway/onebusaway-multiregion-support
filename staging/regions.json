@@ -5,7 +5,7 @@
   "data": {
     "list": [
       {
-        "siriBaseUrl": "http://tampa.onebusaway.org/siri/", 
+        "siriBaseUrl": "http://tampa.onebusaway.org/onebusaway-api-webapp/siri/", 
         "obaVersionInfo": "1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9", 
         "supportsSiriRealtimeApis": true, 
         "supportsObaDiscoveryApis": true, 
@@ -42,9 +42,9 @@
         "regionName": "Tampa"
       }, 
       {
-        "siriBaseUrl": null, 
+        "siriBaseUrl": "http://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/", 
         "obaVersionInfo": "1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52", 
-        "supportsSiriRealtimeApis": false, 
+        "supportsSiriRealtimeApis": true, 
         "supportsObaDiscoveryApis": true, 
         "language": "en_US", 
         "twitterUrl": "http://mobile.twitter.com/oba_pugetsound", 
@@ -210,7 +210,7 @@
         "regionName": "Atlanta"
       }, 
       {
-        "siriBaseUrl": "http://buseta.wmata.com/siri/", 
+        "siriBaseUrl": "http://buseta.wmata.com/onebusaway-api-webapp/siri/", 
         "obaVersionInfo": "", 
         "supportsSiriRealtimeApis": true, 
         "supportsObaDiscoveryApis": true, 

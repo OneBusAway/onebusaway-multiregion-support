@@ -39,7 +39,7 @@
         "obaBaseUrl": "http://api.tampa.onebusaway.org/api/", 
         "id": 0, 
         "experimental": false, 
-        "regionName": "Tampa"
+        "regionName": "Tampa Bay"
       }, 
       {
         "siriBaseUrl": "http://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/", 

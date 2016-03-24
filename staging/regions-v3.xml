@@ -19,6 +19,12 @@
             <lon>-82.445851</lon>
             <lonSpan>0.576358</lonSpan>
           </bound>
+          <bound>
+            <lat>27.91925</lat>
+            <latSpan>0.47208</latSpan>
+            <lon>-82.652145</lon>
+            <lonSpan>0.39677</lonSpan>
+          </bound>
         </bounds>
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <contactEmail>onebusaway@gohart.org</contactEmail>

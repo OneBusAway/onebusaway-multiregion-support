@@ -175,7 +175,10 @@ class JSONSerializer(BaseSerializer):
 	
     def stopInfoUrl(self, bundle, value):
         bundle['stopInfoUrl'] = value or None
-
+	
+    def otpBaseUrl(self, bundle, value):
+        bundle['otpBaseUrl'] = value or None
+	
     def alter_list_bundle(self, list_bundle, version):
         return {
             'version': version,

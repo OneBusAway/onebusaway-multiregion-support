@@ -9,6 +9,7 @@
         <siriBaseUrl>http://tampa.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
         <obaVersionInfo>1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9</obaVersionInfo>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl>http://mobile.twitter.com/OBA_tampa</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -26,7 +27,7 @@
             <lonSpan>0.39677</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl>http://otp-fl.camsys-apps.com:8080/otp/</otpBaseUrl>
         <contactEmail>onebusaway@gohart.org</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers>
@@ -52,6 +53,7 @@
         <siriBaseUrl>http://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
         <obaVersionInfo>1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52</obaVersionInfo>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl>http://mobile.twitter.com/oba_pugetsound</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -111,7 +113,7 @@
             <lonSpan>0.784555996061</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -126,6 +128,7 @@
         <siriBaseUrl>http://bustime.mta.info/api/</siriBaseUrl>
         <obaVersionInfo></obaVersionInfo>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl>http://mobile.twitter.com/nyctbusstop</twitterUrl>
         <supportsObaRealtimeApis>false</supportsObaRealtimeApis>
@@ -143,7 +146,7 @@
             <lonSpan>0.231468</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>MTABusTime@mtahq.org</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -158,6 +161,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo>1.1.14-SNAPSHOT|1|1|14|SNAPSHOT|440e5cb692a1ed195de7f0686d69f5ceecbe9a41</obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl>http://mobile.twitter.com/OBA_atlanta</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -205,7 +209,7 @@
             <lonSpan>0.58204</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>onebusaway@ce.gatech.edu</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -220,6 +224,7 @@
         <siriBaseUrl>http://buseta.wmata.com/onebusaway-api-webapp/siri/</siriBaseUrl>
         <obaVersionInfo></obaVersionInfo>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl>https://mobile.twitter.com/Metrobusinfo</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -231,7 +236,7 @@
             <lonSpan>0.78052</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>feedback@wmata.com</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -246,6 +251,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo>1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52</obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_CA</language>
         <twitterUrl>https://mobile.twitter.com/YRTViva</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -257,7 +263,7 @@
             <lonSpan>0.493296</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>transitinfo@york.ca</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -272,6 +278,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo>1.1.7|1|1|7|d3bbb9109a652359845bdee516dc2cbd1ba35e49</obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl>https://mobile.twitter.com/CalParking</twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -283,7 +290,7 @@
             <lonSpan>0.101815</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>bear-transit@v-a.io</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -298,6 +305,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo></obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl></twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -315,7 +323,7 @@
             <lonSpan>1.169272</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>sbrown@camsys.com</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -330,6 +338,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo>1.1.13|1|1|13||ef9f836500eafee955381b17799b3105b525e93b</obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>fi_FI</language>
         <twitterUrl></twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -341,7 +350,7 @@
             <lonSpan>0.267485233652</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>obasupport@octo3.fi</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -356,6 +365,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo></obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl></twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -367,7 +377,7 @@
             <lonSpan>0.297453</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>info@rvtd.org</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -382,6 +392,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo>1.1.12-SNAPSHOT|1|1|12|SNAPSHOT|</obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl></twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -393,7 +404,7 @@
             <lonSpan>0.422097</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>jespejo@sanjoaquinrtd.com</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
@@ -408,6 +419,7 @@
         <siriBaseUrl></siriBaseUrl>
         <obaVersionInfo>1.1.14|1|1|14|73aea0d </obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <language>en_US</language>
         <twitterUrl></twitterUrl>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
@@ -419,7 +431,7 @@
             <lonSpan>1.09394175442</lonSpan>
           </bound>
         </bounds>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <otpBaseUrl></otpBaseUrl>
         <contactEmail>helpdesk@sdmts.com</contactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>

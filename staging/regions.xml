@@ -29,6 +29,7 @@
         </bounds>
         <otpBaseUrl>http://otp-fl.camsys-apps.com:8080/otp/</otpBaseUrl>
         <contactEmail>onebusaway@gohart.org</contactEmail>
+        <otpContactEmail>opentripplanner@camsys.com</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers>
           <open311Server>
@@ -110,6 +111,7 @@
         </bounds>
         <otpBaseUrl></otpBaseUrl>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
+        <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
@@ -143,6 +145,7 @@
         </bounds>
         <otpBaseUrl></otpBaseUrl>
         <contactEmail>MTABusTime@mtahq.org</contactEmail>
+        <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
@@ -205,7 +208,8 @@
           </bound>
         </bounds>
         <otpBaseUrl></otpBaseUrl>
-        <contactEmail>onebusaway@ce.gatech.edu</contactEmail>
+        <contactEmail>onebusaway@atlantaregional.com</contactEmail>
+        <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
@@ -233,6 +237,7 @@
         </bounds>
         <otpBaseUrl></otpBaseUrl>
         <contactEmail>feedback@wmata.com</contactEmail>
+        <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
@@ -260,6 +265,7 @@
         </bounds>
         <otpBaseUrl></otpBaseUrl>
         <contactEmail>transitinfo@york.ca</contactEmail>
+        <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
@@ -287,6 +293,7 @@
         </bounds>
         <otpBaseUrl></otpBaseUrl>
         <contactEmail>info@rvtd.org</contactEmail>
+        <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>
@@ -314,6 +321,7 @@
         </bounds>
         <otpBaseUrl></otpBaseUrl>
         <contactEmail>helpdesk@sdmts.com</contactEmail>
+        <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>

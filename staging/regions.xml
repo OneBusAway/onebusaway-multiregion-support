@@ -27,7 +27,7 @@
             <lonSpan>0.39677</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl>http://otp-fl.camsys-apps.com:8080/otp/</otpBaseUrl>
+        <otpBaseUrl>http://otp-hart.camsys-apps.com:8080/otp/</otpBaseUrl>
         <contactEmail>onebusaway@gohart.org</contactEmail>
         <otpContactEmail>opentripplanner@camsys.com</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>

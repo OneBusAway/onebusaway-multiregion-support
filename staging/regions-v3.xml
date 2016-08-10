@@ -29,7 +29,7 @@
         </bounds>
         <otpBaseUrl>http://otp-hart.camsys-apps.com:8080/otp/</otpBaseUrl>
         <contactEmail>onebusaway@gohart.org</contactEmail>
-        <otpContactEmail>opentripplanner@camsys.com</otpContactEmail>
+        <otpContactEmail>otp-tampa@onebusaway.org</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers>
           <open311Server>
@@ -296,7 +296,7 @@
         <otpContactEmail></otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
-        <active>true</active>
+        <active>false</active>
         <facebookUrl>https://www.facebook.com/pages/Bear-Transit/109669175726418</facebookUrl>
         <obaBaseUrl>http://bt.v-a.io/onebusaway/</obaBaseUrl>
         <id>6</id>

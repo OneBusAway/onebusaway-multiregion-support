@@ -29,7 +29,7 @@
         </bounds>
         <otpBaseUrl>http://otp-hart.camsys-apps.com:8080/otp/</otpBaseUrl>
         <contactEmail>onebusaway@gohart.org</contactEmail>
-        <otpContactEmail>opentripplanner@camsys.com</otpContactEmail>
+        <otpContactEmail>otp-tampa@onebusaway.org</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers>
           <open311Server>

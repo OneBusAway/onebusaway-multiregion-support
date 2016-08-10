@@ -35,7 +35,7 @@
         ], 
         "otpBaseUrl": "http://otp-hart.camsys-apps.com:8080/otp/", 
         "contactEmail": "onebusaway@gohart.org", 
-        "otpContactEmail": "opentripplanner@camsys.com", 
+        "otpContactEmail": "otp-tampa@onebusaway.org", 
         "stopInfoUrl": null, 
         "active": true, 
         "facebookUrl": "", 

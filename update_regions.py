@@ -151,6 +151,9 @@ class BaseSerializer(object):
     def alter_bundle(self, bundle):
         return bundle
 
+    def supportsEmbeddedSocial(self, bundle, value):
+        bundle['supportsEmbeddedSocial'] = self._bool(value)
+
 
 class JSONSerializer(BaseSerializer):
     def __init__(self, **kwargs):

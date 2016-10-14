@@ -6,6 +6,7 @@
     "list": [
       {
         "siriBaseUrl": "http://tampa.onebusaway.org/onebusaway-api-webapp/siri/", 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9", 
         "supportsSiriRealtimeApis": true, 
         "open311Servers": [
@@ -46,6 +47,7 @@
       }, 
       {
         "siriBaseUrl": "http://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/", 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52", 
         "supportsSiriRealtimeApis": true, 
         "open311Servers": [], 
@@ -122,6 +124,7 @@
       }, 
       {
         "siriBaseUrl": "http://bustime.mta.info/api/", 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "", 
         "supportsSiriRealtimeApis": true, 
         "open311Servers": [], 
@@ -156,6 +159,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "1.1.14-SNAPSHOT|1|1|14|SNAPSHOT|440e5cb692a1ed195de7f0686d69f5ceecbe9a41", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 
@@ -220,6 +224,7 @@
       }, 
       {
         "siriBaseUrl": "http://buseta.wmata.com/onebusaway-api-webapp/siri/", 
+        "supportsEmbeddedSocial": false, 
         "obaVersionInfo": "", 
         "supportsSiriRealtimeApis": true, 
         "open311Servers": [], 
@@ -248,6 +253,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 
@@ -276,6 +282,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": false, 
         "obaVersionInfo": "1.1.7|1|1|7|d3bbb9109a652359845bdee516dc2cbd1ba35e49", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 
@@ -304,6 +311,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 
@@ -338,6 +346,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": false, 
         "obaVersionInfo": "1.1.13|1|1|13||ef9f836500eafee955381b17799b3105b525e93b", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 
@@ -366,6 +375,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 
@@ -394,6 +404,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "1.1.12-SNAPSHOT|1|1|12|SNAPSHOT|", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 
@@ -422,6 +433,7 @@
       }, 
       {
         "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": true, 
         "obaVersionInfo": "1.1.14|1|1|14|73aea0d ", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 

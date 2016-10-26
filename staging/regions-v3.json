@@ -470,7 +470,7 @@
         "obaBaseUrl": "http://realtime.sdmts.com/api/", 
         "id": 11, 
         "experimental": false, 
-        "regionName": "San Diego MTS"
+        "regionName": "San Diego"
       }
     ]
   }

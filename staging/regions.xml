@@ -349,7 +349,7 @@
         <obaBaseUrl>http://realtime.sdmts.com/api/</obaBaseUrl>
         <id>11</id>
         <experimental>false</experimental>
-        <regionName>San Diego MTS</regionName>
+        <regionName>San Diego</regionName>
       </region>
     </list>
   </data>

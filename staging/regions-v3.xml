@@ -443,8 +443,20 @@
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <bounds>
           <bound>
-            <lat>32.9002948657</lat>
-            <latSpan>0.713183869991</latSpan>
+            <lat>32.731591</lat>
+            <latSpan>0.001164</latSpan>
+            <lon>-117.1896335</lon>
+            <lonSpan>0.027427</lonSpan>
+          </bound>
+          <bound>
+            <lat>33.0727675231</lat>
+            <latSpan>0.710512073981</latSpan>
+            <lon>-117.231638246</lon>
+            <lonSpan>0.723725293599</lonSpan>
+          </bound>
+          <bound>
+            <lat>32.8998529713</lat>
+            <latSpan>0.714067658917</latSpan>
             <lon>-116.731428753</lon>
             <lonSpan>1.09394175442</lonSpan>
           </bound>

@@ -311,7 +311,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "obaVersionInfo": "", 
         "supportsSiriRealtimeApis": false, 
         "open311Servers": [], 

@@ -312,7 +312,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <obaVersionInfo></obaVersionInfo>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>

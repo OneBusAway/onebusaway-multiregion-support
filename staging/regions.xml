@@ -28,7 +28,7 @@
             <lonSpan>0.39677</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl>http://otp-hart.camsys-apps.com:8080/otp/</otpBaseUrl>
+        <otpBaseUrl>https://otp.prod.obahart.org/otp/</otpBaseUrl>
         <contactEmail>onebusaway@gohart.org</contactEmail>
         <otpContactEmail>otp-tampa@onebusaway.org</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>

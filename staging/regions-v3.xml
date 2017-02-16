@@ -211,9 +211,9 @@
             <lonSpan>0.58204</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl></otpBaseUrl>
+        <otpBaseUrl>http://opentrip.atlantaregion.com/otp</otpBaseUrl>
         <contactEmail>onebusaway@atlantaregional.com</contactEmail>
-        <otpContactEmail></otpContactEmail>
+        <otpContactEmail>onebusaway@atlantaregional.com</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>

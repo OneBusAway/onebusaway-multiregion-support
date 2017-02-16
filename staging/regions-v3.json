@@ -211,9 +211,9 @@
             "lonSpan": 0.5820399999999921
           }
         ], 
-        "otpBaseUrl": null, 
+        "otpBaseUrl": "http://opentrip.atlantaregion.com/otp", 
         "contactEmail": "onebusaway@atlantaregional.com", 
-        "otpContactEmail": null, 
+        "otpContactEmail": "onebusaway@atlantaregional.com", 
         "stopInfoUrl": null, 
         "active": true, 
         "facebookUrl": "https://www.facebook.com/pages/ObaAtlanta/136662306506627", 

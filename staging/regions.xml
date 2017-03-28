@@ -111,9 +111,9 @@
             <lonSpan>0.784555996061</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl></otpBaseUrl>
+        <otpBaseUrl>http://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
-        <otpContactEmail></otpContactEmail>
+        <otpContactEmail>otp-pugetsound@onebusaway.org</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
         <active>true</active>

@@ -111,9 +111,9 @@
             "lonSpan": 0.784555996061
           }
         ], 
-        "otpBaseUrl": null, 
+        "otpBaseUrl": "http://tpng.api.soundtransit.org/tripplanner/st/", 
         "contactEmail": "onebusaway@soundtransit.org", 
-        "otpContactEmail": null, 
+        "otpContactEmail": "otp-pugetsound@onebusaway.org", 
         "stopInfoUrl": null, 
         "active": true, 
         "facebookUrl": "https://www.facebook.com/pages/OneBusAway/216091804930", 

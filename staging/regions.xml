@@ -216,7 +216,7 @@
         <otpContactEmail>onebusaway@atlantaregional.com</otpContactEmail>
         <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
-        <active>true</active>
+        <active>false</active>
         <facebookUrl>https://www.facebook.com/pages/ObaAtlanta/136662306506627</facebookUrl>
         <obaBaseUrl>http://atlanta.onebusaway.org/api/</obaBaseUrl>
         <id>3</id>

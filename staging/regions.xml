@@ -28,10 +28,9 @@
             <lonSpan>0.39677</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl>https://otp.prod.obahart.org/otp/</otpBaseUrl>
+        <id>0</id>
         <contactEmail>onebusaway@gohart.org</contactEmail>
         <otpContactEmail>otp-tampa@onebusaway.org</otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers>
           <open311Server>
             <juridisctionId></juridisctionId>
@@ -39,10 +38,12 @@
             <baseUrl>https://seeclickfix.com/open311/v2/</baseUrl>
           </open311Server>
         </open311Servers>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>true</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://api.tampa.onebusaway.org/api/</obaBaseUrl>
-        <id>0</id>
+        <otpBaseUrl>https://otp.prod.obahart.org/otp/</otpBaseUrl>
         <experimental>false</experimental>
         <regionName>Tampa Bay</regionName>
       </region>
@@ -111,15 +112,16 @@
             <lonSpan>0.784555996061</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl>http://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
+        <id>1</id>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
         <otpContactEmail>otp-pugetsound@onebusaway.org</otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/pages/OneBusAway/216091804930</facebookUrl>
         <obaBaseUrl>http://api.pugetsound.onebusaway.org/</obaBaseUrl>
-        <id>1</id>
+        <otpBaseUrl>http://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
         <experimental>false</experimental>
         <regionName>Puget Sound</regionName>
       </region>
@@ -146,15 +148,16 @@
             <lonSpan>0.231468</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl></otpBaseUrl>
+        <id>2</id>
         <contactEmail>MTABusTime@mtahq.org</contactEmail>
         <otpContactEmail></otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/pages/MTA-New-York-City-Transit/232635164606</facebookUrl>
         <obaBaseUrl>http://bustime.mta.info/</obaBaseUrl>
-        <id>2</id>
+        <otpBaseUrl></otpBaseUrl>
         <experimental>false</experimental>
         <regionName>MTA New York</regionName>
       </region>
@@ -211,15 +214,16 @@
             <lonSpan>0.58204</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl>http://opentrip.atlantaregion.com/otp</otpBaseUrl>
+        <id>3</id>
         <contactEmail>onebusaway@atlantaregional.com</contactEmail>
         <otpContactEmail>onebusaway@atlantaregional.com</otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
-        <active>true</active>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
+        <active>false</active>
         <facebookUrl>https://www.facebook.com/pages/ObaAtlanta/136662306506627</facebookUrl>
         <obaBaseUrl>http://atlanta.onebusaway.org/api/</obaBaseUrl>
-        <id>3</id>
+        <otpBaseUrl>http://opentrip.atlantaregion.com/otp</otpBaseUrl>
         <experimental>false</experimental>
         <regionName>Atlanta</regionName>
       </region>
@@ -240,15 +244,16 @@
             <lonSpan>0.78052</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl></otpBaseUrl>
+        <id>4</id>
         <contactEmail>feedback@wmata.com</contactEmail>
         <otpContactEmail></otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://buseta.wmata.com/onebusaway-api-webapp/</obaBaseUrl>
-        <id>4</id>
+        <otpBaseUrl></otpBaseUrl>
         <experimental>false</experimental>
         <regionName>Washington, D.C.</regionName>
       </region>
@@ -269,15 +274,16 @@
             <lonSpan>0.493296</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl></otpBaseUrl>
+        <id>5</id>
         <contactEmail>transitinfo@york.ca</contactEmail>
         <otpContactEmail></otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/198178906967045</facebookUrl>
         <obaBaseUrl>http://oba.yrt.ca/</obaBaseUrl>
-        <id>5</id>
+        <otpBaseUrl></otpBaseUrl>
         <experimental>false</experimental>
         <regionName>York</regionName>
       </region>
@@ -298,15 +304,16 @@
             <lonSpan>0.297453</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl></otpBaseUrl>
+        <id>9</id>
         <contactEmail>info@rvtd.org</contactEmail>
         <otpContactEmail></otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://oba.rvtd.org:8080/onebusaway-api-webapp/</obaBaseUrl>
-        <id>9</id>
+        <otpBaseUrl></otpBaseUrl>
         <experimental>false</experimental>
         <regionName>Rogue Valley, Oregon</regionName>
       </region>
@@ -339,15 +346,16 @@
             <lonSpan>1.09394175442</lonSpan>
           </bound>
         </bounds>
-        <otpBaseUrl></otpBaseUrl>
+        <id>11</id>
         <contactEmail>customerfeedback@sdmts.com</contactEmail>
         <otpContactEmail></otpContactEmail>
-        <stopInfoUrl></stopInfoUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://realtime.sdmts.com/api/</obaBaseUrl>
-        <id>11</id>
+        <otpBaseUrl></otpBaseUrl>
         <experimental>false</experimental>
         <regionName>San Diego</regionName>
       </region>

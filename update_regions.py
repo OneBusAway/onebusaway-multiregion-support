@@ -154,6 +154,8 @@ class BaseSerializer(object):
     def supportsEmbeddedSocial(self, bundle, value):
         bundle['supportsEmbeddedSocial'] = self._bool(value)
 
+    def supportsOtpBikeshare(self, bundle, value):
+        bundle['supportsOtpBikeshare'] = self._bool(value)
 
 class JSONSerializer(BaseSerializer):
     def __init__(self, **kwargs):

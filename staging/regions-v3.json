@@ -42,7 +42,7 @@
         "active": true, 
         "facebookUrl": "", 
         "obaBaseUrl": "http://api.tampa.onebusaway.org/api/", 
-        "otpBaseUrl": "https://otp.prod.obahart.org/otp/", 
+        "otpBaseUrl": "http://otp.staging.obahart.org/otp",
         "experimental": false, 
         "regionName": "Tampa Bay"
       }, 

@@ -282,7 +282,7 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <active>true</active>
         <facebookUrl>https://www.facebook.com/198178906967045</facebookUrl>
-        <obaBaseUrl>http://oba.yrt.ca/</obaBaseUrl>
+        <obaBaseUrl>https://oba.yrt.ca/</obaBaseUrl>
         <otpBaseUrl></otpBaseUrl>
         <experimental>false</experimental>
         <regionName>York</regionName>

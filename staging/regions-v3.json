@@ -435,7 +435,7 @@
         "otpContactEmail": null, 
         "stopInfoUrl": null, 
         "supportsOtpBikeshare": false, 
-        "active": true, 
+        "active": false, 
         "facebookUrl": "", 
         "obaBaseUrl": "http://www.obartd.com/onebusaway-api-webapp/", 
         "otpBaseUrl": null, 

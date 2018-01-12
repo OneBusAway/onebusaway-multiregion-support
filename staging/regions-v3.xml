@@ -436,7 +436,7 @@
         <open311Servers/>
         <stopInfoUrl></stopInfoUrl>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
-        <active>true</active>
+        <active>false</active>
         <facebookUrl></facebookUrl>
         <obaBaseUrl>http://www.obartd.com/onebusaway-api-webapp/</obaBaseUrl>
         <otpBaseUrl></otpBaseUrl>

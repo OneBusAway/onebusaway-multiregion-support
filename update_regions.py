@@ -187,6 +187,9 @@ class JSONSerializer(BaseSerializer):
     def otpContactEmail(self, bundle, value):
         bundle['otpContactEmail'] = value or None
 		
+    def paymentAndroidAppId(self, bundle, value):
+        bundle['paymentAndroidAppId'] = value or None
+		
     def alter_list_bundle(self, list_bundle, version):
         return {
             'version': version,

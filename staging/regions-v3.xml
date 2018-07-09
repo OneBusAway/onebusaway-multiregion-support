@@ -469,7 +469,7 @@
         <otpBaseUrl></otpBaseUrl>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
-        <paymentAndroidAppId></paymentAndroidAppId>
+        <paymentAndroidAppId>org.sdmts.riderapp</paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
         <language>en_US</language>

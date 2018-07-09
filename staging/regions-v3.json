@@ -468,7 +468,7 @@
         "otpBaseUrl": null, 
         "supportsSiriRealtimeApis": false, 
         "twitterUrl": "", 
-        "paymentAndroidAppId": null, 
+        "paymentAndroidAppId": "org.sdmts.riderapp", 
         "stopInfoUrl": null, 
         "active": true, 
         "open311Servers": [], 

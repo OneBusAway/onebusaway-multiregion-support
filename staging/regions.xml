@@ -63,7 +63,7 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>otp-pugetsound@onebusaway.org</otpContactEmail>
         <otpBaseUrl>http://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
-        <paymentWarningBody>The mobile fare payment app in this region does not support all transit service shown in OneBusAway. Please check that a ticket is eligible for your agency and route before you purchase!</paymentWarningBody>
+        <paymentWarningBody>The mobile fare payment app for Puget Sound does not support all transit service shown in OneBusAway. Please check that a ticket is eligible for your agency and route before you purchase!</paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/oba_pugetsound</twitterUrl>
         <paymentAndroidAppId>co.bytemark.tgt</paymentAndroidAppId>

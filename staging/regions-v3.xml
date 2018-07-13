@@ -18,11 +18,13 @@
         <supportsOtpBikeshare>true</supportsOtpBikeshare>
         <otpContactEmail>otp-tampa@onebusaway.org</otpContactEmail>
         <otpBaseUrl>https://otp.prod.obahart.org/otp/</otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/OBA_tampa</twitterUrl>
         <paymentAndroidAppId>co.bytemark.hart</paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -61,11 +63,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>otp-pugetsound@onebusaway.org</otpContactEmail>
         <otpBaseUrl>http://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
+        <paymentWarningBody>The mobile fare payment app in this region does not support all transit service shown in OneBusAway. Please check that a ticket is eligible for your agency and route before you purchase!</paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/oba_pugetsound</twitterUrl>
-        <paymentAndroidAppId></paymentAndroidAppId>
+        <paymentAndroidAppId>co.bytemark.tgt</paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle>Check before you buy!</paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -140,11 +144,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/nyctbusstop</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -177,11 +183,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>onebusaway@atlantaregional.com</otpContactEmail>
         <otpBaseUrl>http://opentrip.atlantaregion.com/otp</otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/OBA_atlanta</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>false</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -244,11 +252,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>https://mobile.twitter.com/Metrobusinfo</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -275,11 +285,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl>https://mobile.twitter.com/YRTViva</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_CA</language>
         <bounds>
           <bound>
@@ -306,11 +318,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl>https://mobile.twitter.com/CalParking</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>false</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -337,11 +351,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -374,11 +390,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>fi_FI</language>
         <bounds>
           <bound>
@@ -405,11 +423,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -436,11 +456,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>false</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>
@@ -467,11 +489,13 @@
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
         <paymentAndroidAppId>org.sdmts.riderapp</paymentAndroidAppId>
         <stopInfoUrl></stopInfoUrl>
         <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
         <bounds>
           <bound>

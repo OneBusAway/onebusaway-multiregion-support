@@ -189,7 +189,13 @@ class JSONSerializer(BaseSerializer):
 		
     def paymentAndroidAppId(self, bundle, value):
         bundle['paymentAndroidAppId'] = value or None
-		
+
+    def paymentWarningTitle(self, bundle, value):
+        bundle['paymentWarningTitle'] = value or None
+
+    def paymentWarningBody(self, bundle, value):
+        bundle['paymentWarningBody'] = value or None
+
     def alter_list_bundle(self, list_bundle, version):
         return {
             'version': version,

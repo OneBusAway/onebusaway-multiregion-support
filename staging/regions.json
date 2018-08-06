@@ -21,7 +21,8 @@
         "supportsSiriRealtimeApis": true, 
         "twitterUrl": "http://mobile.twitter.com/OBA_tampa", 
         "paymentAndroidAppId": "co.bytemark.hart", 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": "1140553099", 
+        "paymentiOSAppUrlScheme": "fb313213768708402HART", 
         "active": true, 
         "open311Servers": [
           {
@@ -47,6 +48,7 @@
           }
         ], 
         "facebookUrl": "", 
+        "stopInfoUrl": null, 
         "experimental": false
       }, 
       {
@@ -66,7 +68,8 @@
         "supportsSiriRealtimeApis": true, 
         "twitterUrl": "http://mobile.twitter.com/oba_pugetsound", 
         "paymentAndroidAppId": "co.bytemark.tgt", 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": "1131345078", 
+        "paymentiOSAppUrlScheme": "co.bytemark.tgt", 
         "active": true, 
         "open311Servers": [], 
         "paymentWarningTitle": "Check before you buy!", 
@@ -128,6 +131,7 @@
           }
         ], 
         "facebookUrl": "https://www.facebook.com/pages/OneBusAway/216091804930", 
+        "stopInfoUrl": null, 
         "experimental": false
       }, 
       {
@@ -147,7 +151,8 @@
         "supportsSiriRealtimeApis": true, 
         "twitterUrl": "http://mobile.twitter.com/nyctbusstop", 
         "paymentAndroidAppId": null, 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
         "active": true, 
         "open311Servers": [], 
         "paymentWarningTitle": null, 
@@ -167,6 +172,7 @@
           }
         ], 
         "facebookUrl": "https://www.facebook.com/pages/MTA-New-York-City-Transit/232635164606", 
+        "stopInfoUrl": null, 
         "experimental": false
       }, 
       {
@@ -186,7 +192,8 @@
         "supportsSiriRealtimeApis": false, 
         "twitterUrl": "http://mobile.twitter.com/OBA_atlanta", 
         "paymentAndroidAppId": null, 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
         "active": false, 
         "open311Servers": [], 
         "paymentWarningTitle": null, 
@@ -236,6 +243,7 @@
           }
         ], 
         "facebookUrl": "https://www.facebook.com/pages/ObaAtlanta/136662306506627", 
+        "stopInfoUrl": null, 
         "experimental": false
       }, 
       {
@@ -255,7 +263,8 @@
         "supportsSiriRealtimeApis": true, 
         "twitterUrl": "https://mobile.twitter.com/Metrobusinfo", 
         "paymentAndroidAppId": null, 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
         "active": true, 
         "open311Servers": [], 
         "paymentWarningTitle": null, 
@@ -269,6 +278,7 @@
           }
         ], 
         "facebookUrl": "", 
+        "stopInfoUrl": null, 
         "experimental": false
       }, 
       {
@@ -288,7 +298,8 @@
         "supportsSiriRealtimeApis": false, 
         "twitterUrl": "https://mobile.twitter.com/YRTViva", 
         "paymentAndroidAppId": null, 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
         "active": true, 
         "open311Servers": [], 
         "paymentWarningTitle": null, 
@@ -302,6 +313,7 @@
           }
         ], 
         "facebookUrl": "https://www.facebook.com/198178906967045", 
+        "stopInfoUrl": null, 
         "experimental": false
       }, 
       {
@@ -321,7 +333,8 @@
         "supportsSiriRealtimeApis": false, 
         "twitterUrl": "", 
         "paymentAndroidAppId": null, 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
         "active": true, 
         "open311Servers": [], 
         "paymentWarningTitle": null, 
@@ -335,6 +348,7 @@
           }
         ], 
         "facebookUrl": "", 
+        "stopInfoUrl": null, 
         "experimental": false
       }, 
       {
@@ -354,7 +368,8 @@
         "supportsSiriRealtimeApis": false, 
         "twitterUrl": "", 
         "paymentAndroidAppId": "org.sdmts.riderapp", 
-        "stopInfoUrl": null, 
+        "paymentiOSAppStoreIdentifier": "1212568295", 
+        "paymentiOSAppUrlScheme": "org.sdmts.riderapp.compassmobile.payments", 
         "active": true, 
         "open311Servers": [], 
         "paymentWarningTitle": null, 
@@ -380,6 +395,7 @@
           }
         ], 
         "facebookUrl": "", 
+        "stopInfoUrl": null, 
         "experimental": false
       }
     ]

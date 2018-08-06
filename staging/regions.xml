@@ -22,7 +22,8 @@
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/OBA_tampa</twitterUrl>
         <paymentAndroidAppId>co.bytemark.hart</paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier>1140553099</paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme>fb313213768708402HART</paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
@@ -48,6 +49,7 @@
             <baseUrl>https://seeclickfix.com/open311/v2/</baseUrl>
           </open311Server>
         </open311Servers>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
       <region>
@@ -67,7 +69,8 @@
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/oba_pugetsound</twitterUrl>
         <paymentAndroidAppId>co.bytemark.tgt</paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier>1131345078</paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme>co.bytemark.tgt</paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle>Check before you buy!</paymentWarningTitle>
         <language>en_US</language>
@@ -129,6 +132,7 @@
         </bounds>
         <facebookUrl>https://www.facebook.com/pages/OneBusAway/216091804930</facebookUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
       <region>
@@ -148,7 +152,8 @@
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/nyctbusstop</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
@@ -168,6 +173,7 @@
         </bounds>
         <facebookUrl>https://www.facebook.com/pages/MTA-New-York-City-Transit/232635164606</facebookUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
       <region>
@@ -187,7 +193,8 @@
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl>http://mobile.twitter.com/OBA_atlanta</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
         <active>false</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
@@ -237,6 +244,7 @@
         </bounds>
         <facebookUrl>https://www.facebook.com/pages/ObaAtlanta/136662306506627</facebookUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
       <region>
@@ -256,7 +264,8 @@
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>https://mobile.twitter.com/Metrobusinfo</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
@@ -270,6 +279,7 @@
         </bounds>
         <facebookUrl></facebookUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
       <region>
@@ -289,7 +299,8 @@
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl>https://mobile.twitter.com/YRTViva</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_CA</language>
@@ -303,6 +314,7 @@
         </bounds>
         <facebookUrl>https://www.facebook.com/198178906967045</facebookUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
       <region>
@@ -322,7 +334,8 @@
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
@@ -336,6 +349,7 @@
         </bounds>
         <facebookUrl></facebookUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
       <region>
@@ -355,7 +369,8 @@
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
         <paymentAndroidAppId>org.sdmts.riderapp</paymentAndroidAppId>
-        <stopInfoUrl></stopInfoUrl>
+        <paymentiOSAppStoreIdentifier>1212568295</paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme>org.sdmts.riderapp.compassmobile.payments</paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>
@@ -381,6 +396,7 @@
         </bounds>
         <facebookUrl></facebookUrl>
         <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
     </list>

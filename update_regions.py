@@ -196,6 +196,12 @@ class JSONSerializer(BaseSerializer):
     def paymentWarningBody(self, bundle, value):
         bundle['paymentWarningBody'] = value or None
 
+    def paymentiOSAppStoreIdentifier(self, bundle, value):
+        bundle['paymentiOSAppStoreIdentifier'] = value or None
+
+    def paymentiOSAppUrlScheme(self, bundle, value):
+        bundle['paymentiOSAppUrlScheme'] = value or None
+
     def alter_list_bundle(self, list_bundle, version):
         return {
             'version': version,
@@ -311,6 +317,8 @@ def serialize(regions, serializer, version):
         name = name.replace('?', '').replace('_', ' ').title()
         # Convert to lower camel
         name = name[0].lower() + name[1:]
+        # Keep "iOS"
+        name = name.replace('Ios', 'iOS')
         # Remove spaces
         return name.replace(' ', '')
 

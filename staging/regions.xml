@@ -363,8 +363,8 @@
         <obaVersionInfo>1.1.14|1|1|14|73aea0d </obaVersionInfo>
         <id>11</id>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
-        <otpContactEmail></otpContactEmail>
-        <otpBaseUrl></otpBaseUrl>
+        <otpContactEmail>customerfeedback@sdmts.com</otpContactEmail>
+        <otpBaseUrl>http://realtime.sdmts.com:9090/otp</otpBaseUrl>
         <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>

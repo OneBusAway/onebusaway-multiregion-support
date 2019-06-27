@@ -157,6 +157,12 @@ class BaseSerializer(object):
     def supportsOtpBikeshare(self, bundle, value):
         bundle['supportsOtpBikeshare'] = self._bool(value)
 
+    def travelBehaviorDataCollectionEnabled(self, bundle, value):
+        bundle['travelBehaviorDataCollectionEnabled'] = self._bool(value)
+
+    def enrollParticipantsInStudy(self, bundle, value):
+        bundle['enrollParticipantsInStudy'] = self._bool(value)
+
 class JSONSerializer(BaseSerializer):
     def __init__(self, **kwargs):
         super(JSONSerializer, self).__init__(**kwargs)

@@ -10,11 +10,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@gohart.org</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://api.tampa.onebusaway.org/api/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>0</id>
         <regionName>Tampa Bay</regionName>
         <obaVersionInfo>1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9</obaVersionInfo>
-        <id>0</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>true</supportsOtpBikeshare>
         <otpContactEmail>otp-tampa@onebusaway.org</otpContactEmail>
         <otpBaseUrl>https://otp.prod.obahart.org/otp/</otpBaseUrl>
@@ -57,11 +59,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://api.pugetsound.onebusaway.org/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>1</id>
         <regionName>Puget Sound</regionName>
         <obaVersionInfo>1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52</obaVersionInfo>
-        <id>1</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>otp-pugetsound@onebusaway.org</otpContactEmail>
         <otpBaseUrl>http://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
@@ -140,11 +144,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>false</supportsObaRealtimeApis>
         <contactEmail>MTABusTime@mtahq.org</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://bustime.mta.info/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>2</id>
         <regionName>MTA New York</regionName>
         <obaVersionInfo></obaVersionInfo>
-        <id>2</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -181,11 +187,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@atlantaregional.com</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://atlanta.onebusaway.org/api/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>3</id>
         <regionName>Atlanta</regionName>
         <obaVersionInfo>1.1.14-SNAPSHOT|1|1|14|SNAPSHOT|440e5cb692a1ed195de7f0686d69f5ceecbe9a41</obaVersionInfo>
-        <id>3</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>onebusaway@atlantaregional.com</otpContactEmail>
         <otpBaseUrl>http://opentrip.atlantaregion.com/otp</otpBaseUrl>
@@ -252,11 +260,13 @@
         <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>feedback@wmata.com</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://buseta.wmata.com/onebusaway-api-webapp/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>4</id>
         <regionName>Washington, D.C.</regionName>
         <obaVersionInfo></obaVersionInfo>
-        <id>4</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -287,11 +297,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>transitinfo@york.ca</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>https://oba.yrt.ca/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>5</id>
         <regionName>York</regionName>
         <obaVersionInfo>1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52</obaVersionInfo>
-        <id>5</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -322,11 +334,13 @@
         <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>bear-transit@v-a.io</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://bt.v-a.io/onebusaway/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>6</id>
         <regionName>Bear Transit (beta)</regionName>
         <obaVersionInfo>1.1.7|1|1|7|d3bbb9109a652359845bdee516dc2cbd1ba35e49</obaVersionInfo>
-        <id>6</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -357,11 +371,13 @@
         <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>sbrown@camsys.com</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://developer.onebusaway.org/mbta-api/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>7</id>
         <regionName>Boston (beta)</regionName>
         <obaVersionInfo></obaVersionInfo>
-        <id>7</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -398,11 +414,13 @@
         <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>obasupport@octo3.fi</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://194.89.230.196:8080/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>8</id>
         <regionName>Lappeenranta (beta)</regionName>
         <obaVersionInfo>1.1.13|1|1|13||ef9f836500eafee955381b17799b3105b525e93b</obaVersionInfo>
-        <id>8</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -433,11 +451,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>info@rvtd.org</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://oba.rvtd.org:8080/onebusaway-api-webapp/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>9</id>
         <regionName>Rogue Valley, Oregon</regionName>
         <obaVersionInfo></obaVersionInfo>
-        <id>9</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -468,11 +488,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>jespejo@sanjoaquinrtd.com</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://www.obartd.com/onebusaway-api-webapp/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>10</id>
         <regionName>San Joaquin RTD (beta)</regionName>
         <obaVersionInfo>1.1.12-SNAPSHOT|1|1|12|SNAPSHOT|</obaVersionInfo>
-        <id>10</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail></otpContactEmail>
         <otpBaseUrl></otpBaseUrl>
@@ -503,11 +525,13 @@
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>customerfeedback@sdmts.com</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
         <obaBaseUrl>http://realtime.sdmts.com/api/</obaBaseUrl>
-        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <id>11</id>
         <regionName>San Diego</regionName>
         <obaVersionInfo>1.1.14|1|1|14|73aea0d </obaVersionInfo>
-        <id>11</id>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>customerfeedback@sdmts.com</otpContactEmail>
         <otpBaseUrl>http://realtime.sdmts.com:9090/otp</otpBaseUrl>

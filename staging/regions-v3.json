@@ -567,6 +567,43 @@
         "facebookUrl": "", 
         "stopInfoUrl": null, 
         "experimental": false
+      }, 
+      {
+        "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": false, 
+        "supportsObaRealtimeApis": true, 
+        "contactEmail": "oba4spokanetransit@gmail.com", 
+        "enrollParticipantsInStudy": true, 
+        "obaBaseUrl": "http://52.88.188.196:8080/api/", 
+        "id": 12, 
+        "regionName": "Spokane", 
+        "obaVersionInfo": "2.0.0-SNAPSHOT|2|0|0|SNAPSHOT|", 
+        "travelBehaviorDataCollectionEnabled": true, 
+        "supportsObaDiscoveryApis": true, 
+        "supportsOtpBikeshare": false, 
+        "otpContactEmail": null, 
+        "otpBaseUrl": null, 
+        "paymentWarningBody": null, 
+        "supportsSiriRealtimeApis": false, 
+        "twitterUrl": "", 
+        "paymentAndroidAppId": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
+        "active": true, 
+        "open311Servers": [], 
+        "paymentWarningTitle": null, 
+        "language": "en_US", 
+        "bounds": [
+          {
+            "lat": 47.622654, 
+            "latSpan": 0.29196599999999506, 
+            "lon": -117.397625, 
+            "lonSpan": 0.6162599999999969
+          }
+        ], 
+        "facebookUrl": "", 
+        "stopInfoUrl": null, 
+        "experimental": true
       }
     ]
   }

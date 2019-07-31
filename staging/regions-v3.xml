@@ -569,6 +569,43 @@
         <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
+      <region>
+        <siriBaseUrl></siriBaseUrl>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
+        <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
+        <contactEmail>oba4spokanetransit@gmail.com</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
+        <obaBaseUrl>http://52.88.188.196:8080/api/</obaBaseUrl>
+        <id>12</id>
+        <regionName>Spokane</regionName>
+        <obaVersionInfo>2.0.0-SNAPSHOT|2|0|0|SNAPSHOT|</obaVersionInfo>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
+        <otpContactEmail></otpContactEmail>
+        <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
+        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <twitterUrl></twitterUrl>
+        <paymentAndroidAppId></paymentAndroidAppId>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
+        <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
+        <language>en_US</language>
+        <bounds>
+          <bound>
+            <lat>47.622654</lat>
+            <latSpan>0.291966</latSpan>
+            <lon>-117.397625</lon>
+            <lonSpan>0.61626</lonSpan>
+          </bound>
+        </bounds>
+        <facebookUrl></facebookUrl>
+        <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <experimental>true</experimental>
+      </region>
     </list>
   </data>
 </response>

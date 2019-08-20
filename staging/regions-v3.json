@@ -574,7 +574,7 @@
         "supportsObaRealtimeApis": true, 
         "contactEmail": "oba4spokanetransit@gmail.com", 
         "enrollParticipantsInStudy": true, 
-        "obaBaseUrl": "http://52.88.188.196:8080/api/", 
+        "obaBaseUrl": "https://www.oba4spokane.com/api/", 
         "id": 12, 
         "regionName": "Spokane", 
         "obaVersionInfo": "2.0.0-SNAPSHOT|2|0|0|SNAPSHOT|", 

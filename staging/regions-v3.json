@@ -603,7 +603,7 @@
         ], 
         "facebookUrl": "", 
         "stopInfoUrl": null, 
-        "experimental": true
+        "experimental": false
       }
     ]
   }

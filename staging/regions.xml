@@ -6,12 +6,12 @@
   <data>
     <list>
       <region>
-        <siriBaseUrl>http://tampa.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
+        <siriBaseUrl>https://tampa.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@gohart.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://api.tampa.onebusaway.org/api/</obaBaseUrl>
+        <obaBaseUrl>https://api.tampa.onebusaway.org/api/</obaBaseUrl>
         <id>0</id>
         <regionName>Tampa Bay</regionName>
         <obaVersionInfo>1.1.11-SNAPSHOT|1|1|11|SNAPSHOT|6950d86123a7a9e5f12065bcbec0c516f35d86d9</obaVersionInfo>
@@ -22,7 +22,7 @@
         <otpBaseUrl>https://otp.prod.obahart.org/otp/</otpBaseUrl>
         <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
-        <twitterUrl>http://mobile.twitter.com/OBA_tampa</twitterUrl>
+        <twitterUrl>https://mobile.twitter.com/OBA_tampa</twitterUrl>
         <paymentAndroidAppId>co.bytemark.hart</paymentAndroidAppId>
         <paymentiOSAppStoreIdentifier>1140553099</paymentiOSAppStoreIdentifier>
         <paymentiOSAppUrlScheme>fb313213768708402HART</paymentiOSAppUrlScheme>
@@ -55,12 +55,12 @@
         <experimental>false</experimental>
       </region>
       <region>
-        <siriBaseUrl>http://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
+        <siriBaseUrl>https://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://api.pugetsound.onebusaway.org/</obaBaseUrl>
+        <obaBaseUrl>https://api.pugetsound.onebusaway.org/</obaBaseUrl>
         <id>1</id>
         <regionName>Puget Sound</regionName>
         <obaVersionInfo>1.1.7|1|1|7||c8ee3d4906dd55ecafdd124f31f39c0f54a37b52</obaVersionInfo>
@@ -68,10 +68,10 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>otp-pugetsound@onebusaway.org</otpContactEmail>
-        <otpBaseUrl>http://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
+        <otpBaseUrl>https://tpng.api.soundtransit.org/tripplanner/st/</otpBaseUrl>
         <paymentWarningBody>The mobile fare payment app for Puget Sound does not support all transit service shown in OneBusAway. Please check that a ticket is eligible for your agency and route before you purchase!</paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
-        <twitterUrl>http://mobile.twitter.com/oba_pugetsound</twitterUrl>
+        <twitterUrl>https://mobile.twitter.com/oba_pugetsound</twitterUrl>
         <paymentAndroidAppId>co.bytemark.tgt</paymentAndroidAppId>
         <paymentiOSAppStoreIdentifier>1131345078</paymentiOSAppStoreIdentifier>
         <paymentiOSAppUrlScheme>co.bytemark.tgt</paymentiOSAppUrlScheme>
@@ -140,12 +140,12 @@
         <experimental>false</experimental>
       </region>
       <region>
-        <siriBaseUrl>http://bustime.mta.info/api/</siriBaseUrl>
+        <siriBaseUrl>https://bustime.mta.info/api/</siriBaseUrl>
         <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>false</supportsObaRealtimeApis>
         <contactEmail>MTABusTime@mtahq.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://bustime.mta.info/</obaBaseUrl>
+        <obaBaseUrl>https://bustime.mta.info/</obaBaseUrl>
         <id>2</id>
         <regionName>MTA New York</regionName>
         <obaVersionInfo></obaVersionInfo>
@@ -156,7 +156,7 @@
         <otpBaseUrl></otpBaseUrl>
         <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
-        <twitterUrl>http://mobile.twitter.com/nyctbusstop</twitterUrl>
+        <twitterUrl>https://mobile.twitter.com/nyctbusstop</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
         <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
@@ -188,7 +188,7 @@
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@atlantaregional.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://atlanta.onebusaway.org/api/</obaBaseUrl>
+        <obaBaseUrl>https://atlanta.onebusaway.org/api/</obaBaseUrl>
         <id>3</id>
         <regionName>Atlanta</regionName>
         <obaVersionInfo>1.1.14-SNAPSHOT|1|1|14|SNAPSHOT|440e5cb692a1ed195de7f0686d69f5ceecbe9a41</obaVersionInfo>
@@ -196,10 +196,10 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>onebusaway@atlantaregional.com</otpContactEmail>
-        <otpBaseUrl>http://opentrip.atlantaregion.com/otp</otpBaseUrl>
+        <otpBaseUrl>https://opentrip.atlantaregion.com/otp</otpBaseUrl>
         <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
-        <twitterUrl>http://mobile.twitter.com/OBA_atlanta</twitterUrl>
+        <twitterUrl>https://mobile.twitter.com/OBA_atlanta</twitterUrl>
         <paymentAndroidAppId></paymentAndroidAppId>
         <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
         <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
@@ -256,12 +256,12 @@
         <experimental>false</experimental>
       </region>
       <region>
-        <siriBaseUrl>http://buseta.wmata.com/onebusaway-api-webapp/siri/</siriBaseUrl>
+        <siriBaseUrl>https://buseta.wmata.com/onebusaway-api-webapp/siri/</siriBaseUrl>
         <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>feedback@wmata.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://buseta.wmata.com/onebusaway-api-webapp/</obaBaseUrl>
+        <obaBaseUrl>https://buseta.wmata.com/onebusaway-api-webapp/</obaBaseUrl>
         <id>4</id>
         <regionName>Washington, D.C.</regionName>
         <obaVersionInfo></obaVersionInfo>
@@ -372,7 +372,7 @@
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>customerfeedback@sdmts.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://realtime.sdmts.com/api/</obaBaseUrl>
+        <obaBaseUrl>https://realtime.sdmts.com/api/</obaBaseUrl>
         <id>11</id>
         <regionName>San Diego</regionName>
         <obaVersionInfo>1.1.14|1|1|14|73aea0d </obaVersionInfo>

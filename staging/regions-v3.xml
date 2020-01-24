@@ -372,7 +372,7 @@
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>sbrown@camsys.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://developer.onebusaway.org/mbta-api/</obaBaseUrl>
+        <obaBaseUrl>https://app.dev.mbta.obaweb.org/onebusaway-api-webapp/</obaBaseUrl>
         <id>7</id>
         <regionName>Boston (beta)</regionName>
         <obaVersionInfo></obaVersionInfo>
@@ -452,7 +452,7 @@
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>info@rvtd.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>http://oba.rvtd.org:8080/onebusaway-api-webapp/</obaBaseUrl>
+        <obaBaseUrl>https://oba.rvtd.org/onebusaway-api-webapp/</obaBaseUrl>
         <id>9</id>
         <regionName>Rogue Valley, Oregon</regionName>
         <obaVersionInfo></obaVersionInfo>

@@ -334,7 +334,7 @@
         "supportsObaRealtimeApis": true, 
         "contactEmail": "info@rvtd.org", 
         "enrollParticipantsInStudy": true, 
-        "obaBaseUrl": "http://oba.rvtd.org:8080/onebusaway-api-webapp/", 
+        "obaBaseUrl": "https://oba.rvtd.org/onebusaway-api-webapp/", 
         "id": 9, 
         "regionName": "Rogue Valley, Oregon", 
         "obaVersionInfo": "", 

@@ -533,7 +533,7 @@
         "supportsObaDiscoveryApis": true, 
         "supportsOtpBikeshare": false, 
         "otpContactEmail": "customerfeedback@sdmts.com", 
-        "otpBaseUrl": "http://realtime.sdmts.com:9090/otp", 
+        "otpBaseUrl": "http://realtimedev.sdmts.com:9090/otp",
         "paymentWarningBody": null, 
         "supportsSiriRealtimeApis": false, 
         "twitterUrl": "", 

@@ -380,7 +380,7 @@
         <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
         <supportsOtpBikeshare>false</supportsOtpBikeshare>
         <otpContactEmail>customerfeedback@sdmts.com</otpContactEmail>
-        <otpBaseUrl>http://realtime.sdmts.com:9090/otp</otpBaseUrl>
+        <otpBaseUrl>https://realtime.sdmts.com:9091/otp</otpBaseUrl>
         <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>

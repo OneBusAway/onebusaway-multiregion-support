@@ -22,7 +22,7 @@
         "paymentWarningBody": null, 
         "supportsSiriRealtimeApis": true, 
         "twitterUrl": "https://mobile.twitter.com/OBA_tampa", 
-        "paymentAndroidAppId": "co.bytemark.hart", 
+        "paymentAndroidAppId": "co.bytemark.flamingo", 
         "paymentiOSAppStoreIdentifier": "1140553099", 
         "paymentiOSAppUrlScheme": "fb313213768708402HART", 
         "active": true, 

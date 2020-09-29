@@ -23,7 +23,7 @@
         <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>true</supportsSiriRealtimeApis>
         <twitterUrl>https://mobile.twitter.com/OBA_tampa</twitterUrl>
-        <paymentAndroidAppId>co.bytemark.hart</paymentAndroidAppId>
+        <paymentAndroidAppId>co.bytemark.flamingo</paymentAndroidAppId>
         <paymentiOSAppStoreIdentifier>1140553099</paymentiOSAppStoreIdentifier>
         <paymentiOSAppUrlScheme>fb313213768708402HART</paymentiOSAppUrlScheme>
         <active>true</active>

@@ -7,7 +7,7 @@
     <list>
       <region>
         <siriBaseUrl>https://tampa.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@gohart.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
@@ -56,7 +56,7 @@
       </region>
       <region>
         <siriBaseUrl>https://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/</siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@soundtransit.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
@@ -141,7 +141,7 @@
       </region>
       <region>
         <siriBaseUrl>https://bustime.mta.info/api/</siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>false</supportsObaRealtimeApis>
         <contactEmail>MTABusTime@mtahq.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
@@ -184,7 +184,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>onebusaway@atlantaregional.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
@@ -294,7 +294,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>transitinfo@york.ca</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
@@ -448,7 +448,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>info@rvtd.org</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
@@ -485,7 +485,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>jespejo@sanjoaquinrtd.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
@@ -522,7 +522,7 @@
       </region>
       <region>
         <siriBaseUrl></siriBaseUrl>
-        <supportsEmbeddedSocial>true</supportsEmbeddedSocial>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>customerfeedback@sdmts.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>

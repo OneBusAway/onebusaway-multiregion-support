@@ -6,7 +6,7 @@
     "list": [
       {
         "siriBaseUrl": "https://tampa.onebusaway.org/onebusaway-api-webapp/siri/", 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": true, 
         "contactEmail": "onebusaway@gohart.org", 
         "enrollParticipantsInStudy": true, 
@@ -55,7 +55,7 @@
       }, 
       {
         "siriBaseUrl": "https://pugetsound.onebusaway.org/onebusaway-api-webapp/siri/", 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": true, 
         "contactEmail": "onebusaway@soundtransit.org", 
         "enrollParticipantsInStudy": true, 
@@ -140,7 +140,7 @@
       }, 
       {
         "siriBaseUrl": "https://bustime.mta.info/api/", 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": false, 
         "contactEmail": "MTABusTime@mtahq.org", 
         "enrollParticipantsInStudy": true, 
@@ -183,7 +183,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": true, 
         "contactEmail": "onebusaway@atlantaregional.com", 
         "enrollParticipantsInStudy": true, 
@@ -293,7 +293,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": true, 
         "contactEmail": "transitinfo@york.ca", 
         "enrollParticipantsInStudy": true, 
@@ -447,7 +447,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": true, 
         "contactEmail": "info@rvtd.org", 
         "enrollParticipantsInStudy": true, 
@@ -484,7 +484,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": true, 
         "contactEmail": "jespejo@sanjoaquinrtd.com", 
         "enrollParticipantsInStudy": true, 
@@ -521,7 +521,7 @@
       }, 
       {
         "siriBaseUrl": null, 
-        "supportsEmbeddedSocial": true, 
+        "supportsEmbeddedSocial": false, 
         "supportsObaRealtimeApis": true, 
         "contactEmail": "customerfeedback@sdmts.com", 
         "enrollParticipantsInStudy": true, 

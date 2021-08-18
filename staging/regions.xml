@@ -384,9 +384,9 @@
         <paymentWarningBody></paymentWarningBody>
         <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
         <twitterUrl></twitterUrl>
-        <paymentAndroidAppId>org.sdmts.riderapp</paymentAndroidAppId>
-        <paymentiOSAppStoreIdentifier>1212568295</paymentiOSAppStoreIdentifier>
-        <paymentiOSAppUrlScheme>org.sdmts.riderapp.compassmobile.payments</paymentiOSAppUrlScheme>
+        <paymentAndroidAppId>org.sdmts.pronto</paymentAndroidAppId>
+        <paymentiOSAppStoreIdentifier>1577230742</paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme>org.sdmts.pronto</paymentiOSAppUrlScheme>
         <active>true</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_US</language>

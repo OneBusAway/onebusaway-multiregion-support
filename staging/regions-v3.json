@@ -604,6 +604,43 @@
         "facebookUrl": "", 
         "stopInfoUrl": null, 
         "experimental": false
+      }, 
+      {
+        "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": false, 
+        "supportsObaRealtimeApis": true, 
+        "contactEmail": "obamayaguez@gmail.com", 
+        "enrollParticipantsInStudy": true, 
+        "obaBaseUrl": "https://pr-oba.live/api/", 
+        "id": 13, 
+        "regionName": "Mayaguez (beta)", 
+        "obaVersionInfo": "", 
+        "travelBehaviorDataCollectionEnabled": true, 
+        "supportsObaDiscoveryApis": true, 
+        "supportsOtpBikeshare": false, 
+        "otpContactEmail": null, 
+        "otpBaseUrl": null, 
+        "paymentWarningBody": null, 
+        "supportsSiriRealtimeApis": false, 
+        "twitterUrl": "", 
+        "paymentAndroidAppId": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
+        "active": true, 
+        "open311Servers": [], 
+        "paymentWarningTitle": null, 
+        "language": "en_US", 
+        "bounds": [
+          {
+            "lat": 18.205351924732334, 
+            "latSpan": 0.09467721935961393, 
+            "lon": -67.10329278541604, 
+            "lonSpan": 0.1421846726844791
+          }
+        ], 
+        "facebookUrl": "", 
+        "stopInfoUrl": null, 
+        "experimental": true
       }
     ]
   }

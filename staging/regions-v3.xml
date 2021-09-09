@@ -606,6 +606,43 @@
         <stopInfoUrl></stopInfoUrl>
         <experimental>false</experimental>
       </region>
+      <region>
+        <siriBaseUrl></siriBaseUrl>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
+        <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
+        <contactEmail>obamayaguez@gmail.com</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
+        <obaBaseUrl>https://pr-oba.live/api/</obaBaseUrl>
+        <id>13</id>
+        <regionName>Mayaguez (beta)</regionName>
+        <obaVersionInfo></obaVersionInfo>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
+        <otpContactEmail></otpContactEmail>
+        <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
+        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <twitterUrl></twitterUrl>
+        <paymentAndroidAppId></paymentAndroidAppId>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
+        <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
+        <language>en_US</language>
+        <bounds>
+          <bound>
+            <lat>18.2053519247</lat>
+            <latSpan>0.0946772193596</latSpan>
+            <lon>-67.1032927854</lon>
+            <lonSpan>0.142184672684</lonSpan>
+          </bound>
+        </bounds>
+        <facebookUrl></facebookUrl>
+        <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <experimental>true</experimental>
+      </region>
     </list>
   </data>
 </response>

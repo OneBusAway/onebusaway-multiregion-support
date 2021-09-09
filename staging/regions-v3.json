@@ -611,7 +611,7 @@
         "supportsObaRealtimeApis": true, 
         "contactEmail": "obamayaguez@gmail.com", 
         "enrollParticipantsInStudy": true, 
-        "obaBaseUrl": "https://pr-oba.live/api/", 
+        "obaBaseUrl": "https://pr-oba.live/", 
         "id": 13, 
         "regionName": "Mayaguez (beta)", 
         "obaVersionInfo": "", 

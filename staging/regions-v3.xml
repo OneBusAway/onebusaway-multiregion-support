@@ -612,7 +612,7 @@
         <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
         <contactEmail>obamayaguez@gmail.com</contactEmail>
         <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
-        <obaBaseUrl>https://pr-oba.live/api/</obaBaseUrl>
+        <obaBaseUrl>https://pr-oba.live/</obaBaseUrl>
         <id>13</id>
         <regionName>Mayaguez (beta)</regionName>
         <obaVersionInfo></obaVersionInfo>

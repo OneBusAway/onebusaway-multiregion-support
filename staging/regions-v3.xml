@@ -313,7 +313,7 @@
         <paymentAndroidAppId></paymentAndroidAppId>
         <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
         <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
-        <active>true</active>
+        <active>false</active>
         <paymentWarningTitle></paymentWarningTitle>
         <language>en_CA</language>
         <bounds>

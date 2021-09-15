@@ -312,7 +312,7 @@
         "paymentAndroidAppId": null, 
         "paymentiOSAppStoreIdentifier": null, 
         "paymentiOSAppUrlScheme": null, 
-        "active": true, 
+        "active": false, 
         "open311Servers": [], 
         "paymentWarningTitle": null, 
         "language": "en_CA", 

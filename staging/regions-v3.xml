@@ -643,6 +643,43 @@
         <stopInfoUrl></stopInfoUrl>
         <experimental>true</experimental>
       </region>
+      <region>
+        <siriBaseUrl></siriBaseUrl>
+        <supportsEmbeddedSocial>false</supportsEmbeddedSocial>
+        <supportsObaRealtimeApis>true</supportsObaRealtimeApis>
+        <contactEmail>vtxtransit@gcrpc.org</contactEmail>
+        <enrollParticipantsInStudy>true</enrollParticipantsInStudy>
+        <obaBaseUrl>https://oba.gcrpc.org/onebusaway-api-webapp</obaBaseUrl>
+        <id>14</id>
+        <regionName>Victoria, Texas (beta)</regionName>
+        <obaVersionInfo>2.0.0-SNAPSHOT|2|0|0|SNAPSHOT|</obaVersionInfo>
+        <travelBehaviorDataCollectionEnabled>true</travelBehaviorDataCollectionEnabled>
+        <supportsObaDiscoveryApis>true</supportsObaDiscoveryApis>
+        <supportsOtpBikeshare>false</supportsOtpBikeshare>
+        <otpContactEmail></otpContactEmail>
+        <otpBaseUrl></otpBaseUrl>
+        <paymentWarningBody></paymentWarningBody>
+        <supportsSiriRealtimeApis>false</supportsSiriRealtimeApis>
+        <twitterUrl>https://mobile.twitter.com/Vtx_transit</twitterUrl>
+        <paymentAndroidAppId></paymentAndroidAppId>
+        <paymentiOSAppStoreIdentifier></paymentiOSAppStoreIdentifier>
+        <paymentiOSAppUrlScheme></paymentiOSAppUrlScheme>
+        <active>true</active>
+        <paymentWarningTitle></paymentWarningTitle>
+        <language>en_US</language>
+        <bounds>
+          <bound>
+            <lat>28.822814</lat>
+            <latSpan>0.109128</latSpan>
+            <lon>-96.9861015</lon>
+            <lonSpan>0.072009</lonSpan>
+          </bound>
+        </bounds>
+        <facebookUrl>https://www.facebook.com/GCRPC</facebookUrl>
+        <open311Servers/>
+        <stopInfoUrl></stopInfoUrl>
+        <experimental>true</experimental>
+      </region>
     </list>
   </data>
 </response>

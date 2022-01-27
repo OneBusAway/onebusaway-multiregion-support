@@ -641,6 +641,43 @@
         "facebookUrl": "", 
         "stopInfoUrl": null, 
         "experimental": true
+      }, 
+      {
+        "siriBaseUrl": null, 
+        "supportsEmbeddedSocial": false, 
+        "supportsObaRealtimeApis": true, 
+        "contactEmail": "vtxtransit@gcrpc.org", 
+        "enrollParticipantsInStudy": true, 
+        "obaBaseUrl": "https://oba.gcrpc.org/onebusaway-api-webapp", 
+        "id": 14, 
+        "regionName": "Victoria, Texas (beta)", 
+        "obaVersionInfo": "2.0.0-SNAPSHOT|2|0|0|SNAPSHOT|", 
+        "travelBehaviorDataCollectionEnabled": true, 
+        "supportsObaDiscoveryApis": true, 
+        "supportsOtpBikeshare": false, 
+        "otpContactEmail": null, 
+        "otpBaseUrl": null, 
+        "paymentWarningBody": null, 
+        "supportsSiriRealtimeApis": false, 
+        "twitterUrl": "https://mobile.twitter.com/Vtx_transit", 
+        "paymentAndroidAppId": null, 
+        "paymentiOSAppStoreIdentifier": null, 
+        "paymentiOSAppUrlScheme": null, 
+        "active": true, 
+        "open311Servers": [], 
+        "paymentWarningTitle": null, 
+        "language": "en_US", 
+        "bounds": [
+          {
+            "lat": 28.822814, 
+            "latSpan": 0.10912800000000189, 
+            "lon": -96.98610149999999, 
+            "lonSpan": 0.07200899999999422
+          }
+        ], 
+        "facebookUrl": "https://www.facebook.com/GCRPC", 
+        "stopInfoUrl": null, 
+        "experimental": true
       }
     ]
   }

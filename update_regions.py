@@ -20,8 +20,9 @@ import argparse
 import csv
 import json
 import os
+import io
 import sys
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 from xml.dom.minidom import getDOMImplementation
 
 
@@ -68,11 +69,13 @@ def get_csv_from_file(path):
 
 def get_csv_from_url(url):
     "Returns a list of regions from the specified spreadsheet URL."
-    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(),
-                                  urllib2.HTTPRedirectHandler())
-    urllib2.install_opener(opener)
-    response = urllib2.urlopen(url)
-    reader = csv.DictReader(response)
+    opener = urllib.request.build_opener(
+        urllib.request.HTTPCookieProcessor(),
+        urllib.request.HTTPRedirectHandler()
+    )
+    urllib.request.install_opener(opener)
+    response = urllib.request.urlopen(url)
+    reader = csv.DictReader(io.TextIOWrapper(response, encoding='utf-8'))
     return list(reader)
 
 
@@ -109,11 +112,11 @@ class BaseSerializer(object):
 
         if not apikeys_str:
             return []
-        endpoints = self._open311BaseUrls.split('|') 
+        endpoints = self._open311BaseUrls.split('|')
         apikeys = apikeys_str.split('|')
 
         if not self._open311JurisdictionIds:
-        	return [_map_api_keys(a, e, None) for (a,e) in zip(apikeys, endpoints)]
+            return [_map_api_keys(a, e, None) for (a,e) in zip(apikeys, endpoints)]
         else:
             jurisdictionIds = self._open311JurisdictionIds.split('|')
             return [_map_api_keys(a, e, j) for (a,e,j) in zip(apikeys, endpoints, jurisdictionIds)]
@@ -147,7 +150,7 @@ class BaseSerializer(object):
 
     def experimental(self, bundle, value):
         bundle['experimental'] = self._bool(value)
-	
+
     def alter_bundle(self, bundle):
         return bundle
 
@@ -183,16 +186,16 @@ class JSONSerializer(BaseSerializer):
 
     def siriBaseUrl(self, bundle, value):
         bundle['siriBaseUrl'] = value or None
-	
+
     def stopInfoUrl(self, bundle, value):
         bundle['stopInfoUrl'] = value or None
-	
+
     def otpBaseUrl(self, bundle, value):
         bundle['otpBaseUrl'] = value or None
-		
+
     def otpContactEmail(self, bundle, value):
         bundle['otpContactEmail'] = value or None
-		
+
     def paymentAndroidAppId(self, bundle, value):
         bundle['paymentAndroidAppId'] = value or None
 
@@ -248,7 +251,7 @@ class XMLSerializer(BaseSerializer):
 
         for b in bounds:
             elem = self.doc.createElement('bound')
-            for key, value in b.iteritems():
+            for key, value in b.items():
                 child = self._node(key, value)
                 elem.appendChild(child)
             l.appendChild(elem)
@@ -262,13 +265,13 @@ class XMLSerializer(BaseSerializer):
 
         for o in open311ApiKeys:
             elem = self.doc.createElement('open311Server')
-            for key, value in o.iteritems():
-            	if not value:
-            		value = ''
+            for key, value in o.items():
+                if not value:
+                    value = ''
 
-            	child = self._node(key, value)
-            	elem.appendChild(child)
-            	
+                child = self._node(key, value)
+                elem.appendChild(child)
+
             l.appendChild(elem)
 
         bundle['open311ApiKeys'] = l
@@ -277,7 +280,7 @@ class XMLSerializer(BaseSerializer):
         # Each item in the bundle should be converted to a text
         # node, if it isn't already a node (which it would be for bounds)
         elem = self.doc.createElement('region')
-        for key, value in bundle.iteritems():
+        for key, value in bundle.items():
             if key == 'bounds' or key == 'open311ApiKeys':
                 elem.appendChild(value)
             else:
@@ -331,7 +334,7 @@ def serialize(regions, serializer, version):
     def _to_bundle(index, region):
         bundle = {}
         serializer.region_id(bundle, index)
-        for k, v in region.iteritems():
+        for k, v in region.items():
             key = _key(k)
             f = getattr(serializer, key, None)
             if f:
@@ -346,15 +349,15 @@ def serialize(regions, serializer, version):
     for i, region in enumerate(regions):
         try:
             # For v2, don't include experimental servers
-            if version == 2:			
+            if version == 2:
                 if region["Experimental?"] == 'TRUE':
-                    print "Skipping %s as experimental for v2" % (region["Region_Name"])
+                    print("Skipping %s as experimental for v2" % (region["Region_Name"]))
                 else:
                     list_bundle.append(_to_bundle(i, region))
             else:
                  list_bundle.append(_to_bundle(i, region))
         except ValueError:
-            print >> sys.stderr, "*** ERROR: Invalid region specification: " + str(region)
+            print("*** ERROR: Invalid region specification: " + str(region), file=sys.stderr)
             raise
 
     list_bundle = serializer.alter_list_bundle(list_bundle, version)
@@ -363,7 +366,7 @@ def serialize(regions, serializer, version):
 
 
 def output_stdout(_fmt, output, _opts):
-    print output
+    print(output)
 
 
 def output_file(fmt, output, opts, version):
@@ -372,7 +375,7 @@ def output_file(fmt, output, opts, version):
     else:
         file_name = 'regions-v' + str(version) + '.'
     path = os.path.join(opts.output_dir, file_name + fmt)
-    print 'Writing %s' % path
+    print('Writing %s' % path)
     with open(path, 'w+') as f:
         f.write(output)
 
@@ -382,7 +385,7 @@ def output_s3(fmt, output, opts, version):
         from boto.s3.connection import S3Connection
         from boto.s3.key import Key
     except ImportError:
-        print >> sys.stderr, "Unable to publish to S3: Boto not installed."
+        print("Unable to publish to S3: Boto not installed.", file=sys.stderr)
         return
 
     # Verify the S3 configuration
@@ -391,7 +394,7 @@ def output_s3(fmt, output, opts, version):
     secret_key = opts.aws_secret_key or os.environ.get('AWS_SECRET_ACCESS_KEY')
 
     if not access_key or not secret_key:
-        print >> sys.stderr, "We need an AWS access key and AWS secret key"
+        print("We need an AWS access key and AWS secret key", file=sys.stderr)
         return
 
     conn = S3Connection(access_key, secret_key)
@@ -400,8 +403,8 @@ def output_s3(fmt, output, opts, version):
     if version == 2:
         file_name = 'regions.'
     else:
-		file_name = 'regions-v' + version + '.'
-		
+        file_name = 'regions-v' + version + '.'
+
     k.key = file_name + fmt
 
     # Set a content type
@@ -412,7 +415,7 @@ def output_s3(fmt, output, opts, version):
     if fmt in content_types:
         k.set_metadata('Content-Type', content_types[fmt])
 
-    print 'Writing %s/%s' % (bucket_name, k.key)
+    print('Writing %s/%s' % (bucket_name, k.key))
     k.set_contents_from_string(output)
 
 
@@ -430,7 +433,7 @@ def main():
             pass
     else:
         def log(s):
-            print s
+            print(s)
 
     if opts.input_file:
         log('Reading %s' % opts.input_file)
@@ -460,7 +463,7 @@ def main():
                 output_s3(fmt, output, opts, version)
             else:
                 output_file(fmt, output, opts, version)
-            			
+
             # Write v3 version of API next (includes experimental regions)
             version = 3
             output = serialize(regions, cls(**serializer_opts), version)
@@ -472,7 +475,7 @@ def main():
                 output_file(fmt, output, opts, version)
 
         else:
-            print >> sys.stderr, '*** ERROR: Unknown format: "%s"' % fmt
+            print('*** ERROR: Unknown format: "%s"' % fmt, file=sys.stderr)
 
 
 if __name__ == '__main__':

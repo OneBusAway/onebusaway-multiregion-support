@@ -86,14 +86,17 @@ class BaseSerializer(object):
     def __init__(self, **kwargs):
         self.pretty = kwargs.get('pretty')
 
+    def _normalize_float(self, val):
+        return round(float(val), 12)
+
     def _bounds(self, bounds_str):
         def _map_bound(bound):
             lat, lon, latSpan, lonSpan = bound.split(':')
             return {
-                'lat': float(lat),
-                'lon': float(lon),
-                'latSpan': float(latSpan),
-                'lonSpan': float(lonSpan)
+                'lat': self._normalize_float(lat),
+                'lon': self._normalize_float(lon),
+                'latSpan': self._normalize_float(latSpan),
+                'lonSpan': self._normalize_float(lonSpan)
             }
 
         if not bounds_str:

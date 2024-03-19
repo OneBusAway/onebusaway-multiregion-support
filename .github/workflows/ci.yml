@@ -1,0 +1,22 @@
+name: End-to-End Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  run-e2e-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Run End-to-End tests
+      run: python test_e2e.py

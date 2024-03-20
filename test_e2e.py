@@ -4,6 +4,8 @@ import subprocess
 import unittest
 import os
 
+DEBUG_COMMAND_OUTPUT = False
+
 class TestEndToEnd(unittest.TestCase):
     @staticmethod
     def remove_test_files():
@@ -33,7 +35,12 @@ class TestEndToEnd(unittest.TestCase):
 
     def test_update_regions_output(self):
         command = ["python", "update_regions.py", "--input-file", "./tests/fixtures/server_directory.csv", "--output-dir", "./tests/tmp", "--pretty"]
-        _ = subprocess.run(command, capture_output=True, text=True)
+        out = subprocess.run(command, capture_output=True, text=True)
+
+        if DEBUG_COMMAND_OUTPUT:
+            print(f"stdout:\n{out.stdout}")
+            print(f"stderr:\n{out.stdout}")
+            print(out.stderr)
 
         regions_xml_fixture = self.read_file_as_string('tests/fixtures/regions.xml')
         regions_xml_output = self.read_file_as_string('tests/tmp/regions.xml')

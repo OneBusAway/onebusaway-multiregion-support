@@ -4,7 +4,24 @@ import subprocess
 import unittest
 import os
 
+DEBUG_COMMAND_OUTPUT = False
+
 class TestEndToEnd(unittest.TestCase):
+    @staticmethod
+    def remove_test_files():
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions.xml"])
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions-v3.xml"])
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions.json"])
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions-v3.json"])
+
+    def setUp(self) -> None:
+        self.remove_test_files()
+        return super().setUp()
+
+    def tearDown(self) -> None:
+        self.remove_test_files()
+        return super().tearDown()
+
     @staticmethod
     def read_file_as_string(file_path):
         # Determine the directory of the current script (test_e2e.py)
@@ -18,7 +35,12 @@ class TestEndToEnd(unittest.TestCase):
 
     def test_update_regions_output(self):
         command = ["python", "update_regions.py", "--input-file", "./tests/fixtures/server_directory.csv", "--output-dir", "./tests/tmp", "--pretty"]
-        _ = subprocess.run(command, capture_output=True, text=True)
+        out = subprocess.run(command, capture_output=True, text=True)
+
+        if DEBUG_COMMAND_OUTPUT:
+            print(f"stdout:\n{out.stdout}")
+            print(f"stderr:\n{out.stdout}")
+            print(out.stderr)
 
         regions_xml_fixture = self.read_file_as_string('tests/fixtures/regions.xml')
         regions_xml_output = self.read_file_as_string('tests/tmp/regions.xml')
@@ -35,6 +57,7 @@ class TestEndToEnd(unittest.TestCase):
         regions_json_v3_fixture = self.read_file_as_string('tests/fixtures/regions-v3.json')
         regions_json_v3_output = self.read_file_as_string('tests/tmp/regions-v3.json')
         self.assertEqual(regions_json_v3_fixture, regions_json_v3_output, "regions-v3.json should be identical")
+
 
 # This allows the test to be run from the command line
 if __name__ == '__main__':

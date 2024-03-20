@@ -1,7 +1,6 @@
 __pycache__
-./regions.xml
-./regions.json
-./regions-v3.xml
-./regions-v3.json
-tests/tmp/*.json
-tests/tmp/*.xml
+regions.xml
+regions.json
+regions-v3.xml
+regions-v3.json
+!tests/fixtures/regions-v3.json

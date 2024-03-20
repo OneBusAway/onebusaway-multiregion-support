@@ -6,6 +6,21 @@ import os
 
 class TestEndToEnd(unittest.TestCase):
     @staticmethod
+    def remove_test_files():
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions.xml"])
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions-v3.xml"])
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions.json"])
+        _ = subprocess.run(["rm", "-f", "./tests/tmp/regions-v3.json"])
+
+    def setUp(self) -> None:
+        self.remove_test_files()
+        return super().setUp()
+
+    def tearDown(self) -> None:
+        self.remove_test_files()
+        return super().tearDown()
+
+    @staticmethod
     def read_file_as_string(file_path):
         # Determine the directory of the current script (test_e2e.py)
         current_script_directory = os.path.dirname(os.path.realpath(__file__))
@@ -35,6 +50,7 @@ class TestEndToEnd(unittest.TestCase):
         regions_json_v3_fixture = self.read_file_as_string('tests/fixtures/regions-v3.json')
         regions_json_v3_output = self.read_file_as_string('tests/tmp/regions-v3.json')
         self.assertEqual(regions_json_v3_fixture, regions_json_v3_output, "regions-v3.json should be identical")
+
 
 # This allows the test to be run from the command line
 if __name__ == '__main__':

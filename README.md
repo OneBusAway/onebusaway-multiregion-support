@@ -9,6 +9,18 @@ The `update_regions.py` script retrieves the contents of the [OneBusAway Server 
 
 More about this Regions API update process is found [here](https://github.com/OneBusAway/onebusaway/wiki/Multi-Region#multi-region-administration---updating-the-regions-rest-api-response).
 
+#### tl;dr
+
+Assuming that you have access to the `onebusaway-regions` bucket, have installed the awscli tools, and have set up your appropriate AWS credentials under the profile `obaregions`, you can update the regions files with the following commmands:
+
+```
+python update_regions.py --pretty
+aws s3 mv regions.json s3://onebusaway-regions/regions.json --profile obaregions
+aws s3 mv regions-v3.json s3://onebusaway-regions/regions-v3.json --profile obaregions
+aws s3 mv regions-v3.xml s3://onebusaway-regions/regions-v3.xml --profile obaregions
+aws s3 mv regions.xml s3://onebusaway-regions/regions.xml --profile obaregions
+```
+
 #### Prerequisites
 
 You'll need to download and install [Python](https://www.python.org/).  This project has been tested with Python 2.7.x.

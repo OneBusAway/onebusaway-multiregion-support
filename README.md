@@ -1,3 +1,7 @@
+# Archive Notice
+
+This repository is no longer in use. Multiregion management for OBA has been moved into OBACloud, maintained by OBA's parent organization, Open Transit Software Foundation.
+
 # Multi-Region support files for OneBusAway
 
 This project generates files that serve as the [OneBusAway Regions API](https://github.com/OneBusAway/onebusaway/wiki/Multi-Region#regions-rest-api), which helps the OneBusAway clients find servers across multiple regions within the same app.
